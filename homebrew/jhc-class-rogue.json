@@ -1,0 +1,1928 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-ROGUE",
+				"abbreviation": "JHC-ROGUE",
+				"full": "House Rules JHC-ROGUE",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"class": [
+		{
+			"name": "Rogue*",
+			"source": "JHC-ROGUE",
+			"page": 217,
+			"srd": true,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex",
+				"int"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"{@item hand crossbow|phb|hand crossbows}",
+					"{@item longsword|phb|longswords}",
+					"{@item rapier|phb|rapiers}",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"tools": [
+					"{@item thieves' tools|phb}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"insight",
+								"intimidation",
+								"investigation",
+								"perception",
+								"performance",
+								"persuasion",
+								"sleight of hand",
+								"stealth"
+							],
+							"count": 4
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"thieves' cant": true
+				}
+			],
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
+					"(a) a {@item shortbow|phb} and {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
+					"(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
+					"{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+				],
+				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"rapier|phb"
+						],
+						"b": [
+							"shortsword|phb"
+						]
+					},
+					{
+						"a": [
+							"shortbow|phb",
+							"arrows (20)|phb"
+						],
+						"b": [
+							"shortsword|phb"
+						]
+					},
+					{
+						"a": [
+							"burglar's pack|phb"
+						],
+						"b": [
+							"dungeoneer's pack|phb"
+						],
+						"c": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"Leather armor|phb",
+							{
+								"item": "dagger|phb",
+								"quantity": 2
+							},
+							"thieves' tools|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"acrobatics",
+									"athletics",
+									"deception",
+									"insight",
+									"intimidation",
+									"investigation",
+									"perception",
+									"performance",
+									"persuasion",
+									"sleight of hand",
+									"stealth"
+								],
+								"count": 1
+							}
+						}
+					],
+					"tools": [
+						"{@item thieves' tools|phb}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Sneak Attack"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Expertise|Rogue||1",
+				"Sneak Attack|Rogue||1",
+				"Thieves' Cant*|Rogue*|JHC-ROGUE|1",
+				"Cunning Action|Rogue||2",
+				{
+					"classFeature": "Roguish Archetype|Rogue||3",
+					"gainSubclassFeature": true
+				},
+				"Steady Aim*|Rogue*|JHC-ROGUE|3",
+				"Ability Score Improvement and Feat*|Rogue*|JHC-ROGUE|4",
+				"Proficiency Versatility*|Rogue*|JHC-ROGUE|4",
+				"Uncanny Dodge|Rogue||5",
+				"Expertise|Rogue||6",
+				"Evasion|Rogue||7",
+				"Ability Score Improvement|Rogue||8",
+				"Proficiency Versatility*|Rogue*|JHC-ROGUE|8",
+				{
+					"classFeature": "Roguish Archetype feature|Rogue||9",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Rogue||10",
+				"Proficiency Versatility*|Rogue*|JHC-ROGUE|10",
+				"Reliable Talent*|Rogue*|JHC-ROGUE|11",
+				"Ability Score Improvement|Rogue||12",
+				"Proficiency Versatility*|Rogue*|JHC-ROGUE|12",
+				{
+					"classFeature": "Roguish Archetype feature|Rogue||13",
+					"gainSubclassFeature": true
+				},
+				"Blindsense|Rogue||14",
+				"Slippery Mind|Rogue||15",
+				"Ability Score Improvement|Rogue||16",
+				"Proficiency Versatility*|Rogue*|JHC-ROGUE|16",
+				{
+					"classFeature": "Roguish Archetype feature|Rogue||17",
+					"gainSubclassFeature": true
+				},
+				"Elusive|Rogue||18",
+				"Ability Score Improvement|Rogue||19",
+				"Proficiency Versatility*|Rogue*|JHC-ROGUE|19",
+				"Stroke of Luck|Rogue||20"
+			],
+			"subclassTitle": "Roguish Archetype",
+			"subclasses": [
+				{
+					"name": "Arcane Trickster*",
+					"shortName": "Arcane Trickster*",
+					"source": "JHC-ROGUE",
+					"page": 222,
+					"spellcastingAbility": "int",
+					"casterProgression": "1/3",
+					"cantripProgression": [
+						0,
+						0,
+						2,
+						2,
+						2,
+						2,
+						2,
+						2,
+						2,
+						3,
+						3,
+						3,
+						3,
+						3,
+						3,
+						3,
+						3,
+						3,
+						3,
+						3
+					],
+					"spellsKnownProgression": [
+						0,
+						0,
+						3,
+						4,
+						5,
+						5,
+						6,
+						6,
+						7,
+						7,
+						8,
+						8,
+						9,
+						9,
+						10,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"additionalSpells": [
+						{
+							"prepared": {
+								"3": [
+									"mage hand"
+								]
+							}
+						}
+					],
+					"subclassTableGroups": [
+						{
+							"subclasses": [
+								{
+									"name": "Arcane Trickster*",
+									"source": "JHC-ROGUE"
+								}
+							],
+							"colLabels": [
+								"{@filter Cantrips Known|spells|level=0|subclass=rogue*: arcane trickster* (jhc-rogue)}",
+								"{@filter Spells Known|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)}"
+							],
+							"rows": [
+								[
+									0,
+									0
+								],
+								[
+									0,
+									0
+								],
+								[
+									2,
+									3
+								],
+								[
+									2,
+									4
+								],
+								[
+									2,
+									5
+								],
+								[
+									2,
+									5
+								],
+								[
+									2,
+									6
+								],
+								[
+									2,
+									6
+								],
+								[
+									2,
+									7
+								],
+								[
+									3,
+									7
+								],
+								[
+									3,
+									8
+								],
+								[
+									3,
+									8
+								],
+								[
+									3,
+									9
+								],
+								[
+									3,
+									9
+								],
+								[
+									3,
+									10
+								],
+								[
+									3,
+									10
+								],
+								[
+									3,
+									11
+								],
+								[
+									3,
+									12
+								],
+								[
+									3,
+									13
+								],
+								[
+									3,
+									14
+								]
+							]
+						},
+						{
+							"title": "Spell Slots per Spell Level",
+							"subclasses": [
+								{
+									"name": "Arcane Trickster*",
+									"source": "JHC-ROGUE"
+								}
+							],
+							"colLabels": [
+								"{@filter 1st|spells|level=1|subclass=rogue*: arcane trickster* (jhc-rogue)}",
+								"{@filter 2nd|spells|level=2|subclass=rogue*: arcane trickster* (jhc-rogue)}",
+								"{@filter 3rd|spells|level=3|subclass=rogue*: arcane trickster* (jhc-rogue)}",
+								"{@filter 4th|spells|level=4|subclass=rogue*: arcane trickster* (jhc-rogue)}"
+							],
+							"rows": [
+								[
+									0,
+									0,
+									0,
+									0
+								],
+								[
+									0,
+									0,
+									0,
+									0
+								],
+								[
+									2,
+									0,
+									0,
+									0
+								],
+								[
+									3,
+									0,
+									0,
+									0
+								],
+								[
+									3,
+									0,
+									0,
+									0
+								],
+								[
+									3,
+									0,
+									0,
+									0
+								],
+								[
+									4,
+									2,
+									0,
+									0
+								],
+								[
+									4,
+									2,
+									0,
+									0
+								],
+								[
+									4,
+									2,
+									0,
+									0
+								],
+								[
+									4,
+									3,
+									0,
+									0
+								],
+								[
+									4,
+									3,
+									0,
+									0
+								],
+								[
+									4,
+									3,
+									0,
+									0
+								],
+								[
+									4,
+									3,
+									2,
+									0
+								],
+								[
+									4,
+									3,
+									2,
+									0
+								],
+								[
+									4,
+									3,
+									2,
+									0
+								],
+								[
+									4,
+									3,
+									3,
+									0
+								],
+								[
+									4,
+									3,
+									3,
+									0
+								],
+								[
+									4,
+									3,
+									3,
+									0
+								],
+								[
+									4,
+									3,
+									3,
+									1
+								],
+								[
+									4,
+									3,
+									3,
+									1
+								]
+							]
+						}
+					],
+					"subclassFeatures": [
+						"Arcane Trickster*|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|3",
+						"Magical Ambush|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|9",
+						"Versatile Trickster|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|13",
+						"Spell Thief|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|17"
+					],
+					"subclassSpells": [
+						{ "name": "Acid Splash ", "source": "PHB" },
+						{ "name": "Blade Ward  ", "source": "PHB" },
+						{ "name": "Booming Blade*", "source": "JHC" },
+						{ "name": "Chill Touch", "source": "", "source": "PHB" },
+						{ "name": "Control Flames", "source": "XGE" },
+						{ "name": "Create Bonfire", "source": "XGE" },
+						{ "name": "Dancing Lights", "source": "PHB" },
+						{ "name": "Decay*", "source": "JHC" },
+						{ "name": "Fire Bolt", "source": "", "source": "PHB" },
+						{ "name": "Friends", "source": "", "source": "PHB" },
+						{ "name": "Frostbite", "source": "", "source": "XGE" },
+						{ "name": "Grasping Sprout*", "source": "JHC" },
+						{ "name": "Green-Flame Blade*", "source": "JHC" },
+						{ "name": "Gust", "source": "", "source": "XGE" },
+						{ "name": "Hamstring*", "source": "JHC" },
+						{ "name": "Infestation", "source": "", "source": "XGE" },
+						{ "name": "Jolt*", "source": "JHC" },
+						{ "name": "Light", "source": "", "source": "PHB" },
+						{ "name": "Lightning Lure*", "source": "JHC" },
+						{ "name": "Mage Hand", "source": "", "source": "PHB" },
+						{ "name": "Mending", "source": "", "source": "PHB" },
+						{ "name": "Message", "source": "", "source": "PHB" },
+						{ "name": "Mind Sliver", "source": "", "source": "TCE" },
+						{ "name": "Minor Illusion", "source": "PHB" },
+						{ "name": "Mold Earth", "source": "", "source": "XGE" },
+						{ "name": "Poison Spray", "source": "PHB" },
+						{ "name": "Prestidigitation", "source": "PHB" },
+						{ "name": "Ray of Frost", "source": "PHB" },
+						{ "name": "Shape Water", "source": "", "source": "XGE" },
+						{ "name": "Shocking Grasp", "source": "PHB" },
+						{ "name": "Sword Burst", "source": "", "source": "TCE" },
+						{ "name": "Thunderclap", "source": "", "source": "XGE" },
+						{ "name": "Toll the Dead", "source": "XGE" },
+						{ "name": "True Strike", "source": "", "source": "PHB" },
+						{ "name": "Alarm", "source": "PHB"},
+						{ "name": "Cause Fear", "source": "XGE"},
+						{ "name": "Charm Person", "source": "PHB"},
+						{ "name": "Color Spray", "source": "PHB"},
+						{ "name": "Detect Magic", "source": "PHB"},
+						{ "name": "Detect Poison and Disease", "source": "PHB"},
+						{ "name": "Disguise Self", "source": "PHB"},
+						{ "name": "Distort Value", "source": "AI"},
+						{ "name": "Faerie Fire", "source": "PHB"},
+						{ "name": "Feather Fall", "source": "PHB"},
+						{ "name": "Grease*", "source": "JHC"},
+						{ "name": "Illusory Script", "source": "PHB"},
+						{ "name": "Jump*", "source": "JHC"},
+						{ "name": "Silent Image", "source": "PHB"},
+						{ "name": "Sleep", "source": "PHB"},
+						{ "name": "Tasha's Hideous Laughter", "source": "PHB"},
+						{ "name": "Arcane Lock", "source": "PHB"},
+						{ "name": "Blindness/Deafness", "source": "PHB"},
+						{ "name": "Blur", "source": "PHB"},
+						{ "name": "Calm Emotions", "source": "PHB"},
+						{ "name": "Darkness", "source": "PHB"},
+						{ "name": "Darkvision", "source": "PHB"},
+						{ "name": "Enhance Ability", "source": "PHB"},
+						{ "name": "Enlarge/Reduce", "source": "PHB"},
+						{ "name": "Enthrall", "source": "PHB"},
+						{ "name": "Find Traps*", "source": "JHC"},
+						{ "name": "Gift of Gab", "source": "AI"},
+						{ "name": "Hold Person", "source": "PHB"},
+						{ "name": "Invisibility", "source": "PHB"},
+						{ "name": "Jim's Glowing Coin", "source": "AI"},
+						{ "name": "Levitate", "source": "PHB"},
+						{ "name": "Magic Mouth", "source": "PHB"},
+						{ "name": "Mirror Image", "source": "PHB"},
+						{ "name": "Misty Step", "source": "PHB"},
+						{ "name": "Nystul's Magic Aura", "source": "PHB"},
+						{ "name": "Phantasmal Force", "source": "PHB"},
+						{ "name": "See invisibility", "source": "PHB"},
+						{ "name": "Shadow Blade*", "source": "JHC"},
+						{ "name": "Snilloc's Snowball Swarm*", "source": "JHC"},
+						{ "name": "Spider Climb", "source": "PHB"},
+						{ "name": "Suggestion*", "source": "JHC"},
+						{ "name": "Web", "source": "PHB"},
+						{ "name": "Blink", "source": "PHB"},
+						{ "name": "Clairvoyance", "source": "PHB"},
+						{ "name": "Counterspell*", "source": "JHC"},
+						{ "name": "Dispell Magic", "source": "PHB"},
+						{ "name": "Enemies abound", "source": "XGE"},
+						{ "name": "Fast Friends", "source": "AI"},
+						{ "name": "Fear", "source": "PHB"},
+						{ "name": "Gaseous Form", "source": "PHB"},
+						{ "name": "Haste", "source": "PHB"},
+						{ "name": "Hypnotic Pattern", "source": "PHB"},
+						{ "name": "Incite Greed", "source": "AI"},
+						{ "name": "Major Image", "source": "PHB"},
+						{ "name": "Phantom Steed", "source": "PHB"},
+						{ "name": "Sending", "source": "PHB"},
+						{ "name": "Slow", "source": "PHB"},
+						{ "name": "Stinking Cloud", "source": "PHB"},
+						{ "name": "Vampiric Touch", "source": "PHB"},
+						{ "name": "Wall of Sand", "source": "XGE"},
+						{ "name": "Charm Monster", "source": "XGE"},
+						{ "name": "Confusion", "source": "PHB"},
+						{ "name": "Dimension Door", "source": "PHB"},
+						{ "name": "Greater Invisibility", "source": "PHB"},
+						{ "name": "Hallucinatory Terrain", "source": "PHB"},
+						{ "name": "Leomund's Secret Chest", "source": "PHB"},
+						{ "name": "Locate Creature", "source": "PHB"},
+						{ "name": "Otiluke's Resilient Sphere", "source": "PHB"},
+						{ "name": "Phantasmal Killer", "source": "PHB"},
+						{ "name": "Reposition*", "source": "JHC"},
+						{ "name": "Wayward Strike*", "source": "JHC"}
+					]
+				},
+				{
+					"name": "Assassin*",
+					"shortName": "Assassin*",
+					"source": "JHC-ROGUE",
+					"page": 225,
+					"subclassFeatures": [
+						"Assassin*|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|3",
+						"Impostor|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|9",
+						"Master of Poisons|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|13",
+						"Death Strike|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|17"
+					]
+				},
+				{
+					"name": "Divine Agent*",
+					"shortName": "Divine Agent*",
+					"source": "JHC-ROGUE",
+					"page": 226,
+					"subclassFeatures": [
+						"Divine Agent*|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3",
+						"Sanctification|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|9",
+						"Gnosis|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|13",
+						"Cleansing Fire|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|17"
+					]
+				},
+				{
+					"name": "Inquisitive",
+					"shortName": "Inquisitive",
+					"source": "XGE",
+					"page": 45,
+					"subclassFeatures": [
+						"Inquisitive|Rogue||Inquisitive|XGE|3",
+						"Steady Eye|Rogue||Inquisitive|XGE|9",
+						"Unerring Eye|Rogue||Inquisitive|XGE|13",
+						"Eye for Weakness|Rogue||Inquisitive|XGE|17"
+					]
+				},
+				{
+					"name": "Mastermind",
+					"shortName": "Mastermind",
+					"source": "XGE",
+					"page": 46,
+					"otherSources": [
+						{
+							"source": "SCAG",
+							"page": 135
+						}
+					],
+					"subclassFeatures": [
+						"Mastermind|Rogue||Mastermind|XGE|3",
+						"Insightful Manipulator|Rogue||Mastermind|XGE|9",
+						"Misdirection|Rogue||Mastermind|XGE|13",
+						"Soul of Deceit|Rogue||Mastermind|XGE|17"
+					]
+				},
+				{
+					"name": "Phantom",
+					"shortName": "Phantom",
+					"source": "TCE",
+					"page": 62,
+					"subclassFeatures": [
+						"Phantom|Rogue||Phantom|TCE|3",
+						"Tokens of the Departed|Rogue||Phantom|TCE|9",
+						"Ghost Walk|Rogue||Phantom|TCE|13",
+						"Death's Friend|Rogue||Phantom|TCE|17"
+					]
+				},
+				{
+					"name": "Scout",
+					"shortName": "Scout",
+					"source": "XGE",
+					"page": 47,
+					"subclassFeatures": [
+						"Scout|Rogue||Scout|XGE|3",
+						"Superior Mobility|Rogue||Scout|XGE|9",
+						"Ambush Master|Rogue||Scout|XGE|13",
+						"Sudden Strike|Rogue||Scout|XGE|17"
+					]
+				},
+				{
+					"name": "Soulknife",
+					"shortName": "Soulknife",
+					"source": "TCE",
+					"page": 63,
+					"subclassFeatures": [
+						"Soulknife|Rogue||Soulknife|TCE|3",
+						"Soul Blades|Rogue||Soulknife|TCE|9",
+						"Psychic Veil|Rogue||Soulknife|TCE|13",
+						"Rend Mind|Rogue||Soulknife|TCE|17"
+					]
+				},
+				{
+					"name": "Swashbuckler",
+					"shortName": "Swashbuckler",
+					"source": "XGE",
+					"page": 48,
+					"otherSources": [
+						{
+							"source": "SCAG",
+							"page": 135
+						}
+					],
+					"subclassFeatures": [
+						"Swashbuckler|Rogue||Swashbuckler|XGE|3",
+						"Panache|Rogue||Swashbuckler|XGE|9",
+						"Elegant Maneuver|Rogue||Swashbuckler|XGE|13",
+						"Master Duelist|Rogue||Swashbuckler|XGE|17"
+					]
+				},
+				{
+					"name": "Thief",
+					"shortName": "Thief",
+					"source": "PHB",
+					"page": 97,
+					"srd": true,
+					"subclassFeatures": [
+						"Thief|Rogue||Thief||3",
+						"Supreme Sneak|Rogue||Thief||9",
+						"Use Magic Device|Rogue||Thief||13",
+						"Thief's Reflexes|Rogue||Thief||17"
+					]
+				}
+			],
+			"fluff": [
+				{
+					"name": "Rogue*",
+					"type": "section",
+					"entries": [
+						"Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.",
+						"A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target\u2014a notorious slaver\u2014passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin's blade cuts his throat before he can make a sound.",
+						"Suppressing a giggle, a gnome waggles her fingers and magically lifts the key ring from the guard's belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.",
+						"Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
+						{
+							"type": "entries",
+							"name": "Skill and Precision",
+							"entries": [
+								"Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match. Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.",
+								"When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Shady Living",
+							"entries": [
+								"Every town and city has its share of rogues. Most of them live up to the worst stereotypes of the class, making a living as burglars, assassins, cutpurses, and con artists. Often, these scoundrels are organized into thieves' guilds or crime families. Plenty of rogues operate independently, but even they sometimes recruit apprentices to help them in their scams and heists. A few rogues make an honest living as locksmiths, investigators, or exterminators, which can be a dangerous job in a world where dire rats\u2014and wererats\u2014haunt the sewers.",
+								"As adventurers, rogues fall on both sides of the law. Some are hardened criminals who decide to seek their fortune in treasure hoards, while others take up a life of adventure to escape from the law. Some have learned and perfected their skills with the explicit purpose of infiltrating ancient ruins and hidden crypts in search of treasure."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Rogue",
+							"entries": [
+								"As you create your rogue character, consider the character's relationship to the law. Do you have a criminal past\u2014or present? Are you on the run from the law or from an angry thieves' guild master? Or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventures, or some other desire or ideal?",
+								"What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and a successful robbery gave you the coin you needed to escape the squalor of your life. Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself cut off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend\u2014another member of your adventuring party\u2014who showed you new possibilities for earning a living and employing your particular talents.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a rogue quickly by following these suggestions. First, Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation or plan to take up the Thief|JHC-ROGUE| archetype. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the {@background charlatan} background."
+									]
+								}
+							]
+						}
+					],
+					"page": 94,
+					"source": "JHC-ROGUE"
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"People forget that the entire point of venturing down into a dusty tomb is to bring back the prizes hidden away there. Fighting is for fools. Dead men can't spend their fortunes."
+							],
+							"by": "Barnabas Bladecutter"
+						},
+						"When brute force won't get the job done, or when magic isn't available or appropriate, the rogue rises to the fore. With skills tied to stealth, subterfuge, and trickery, rogues can get into and out of trouble in ways that few other characters can emulate.",
+						"Some rogues who turn to adventuring are former criminals who have decided that dodging monsters is preferable to remaining one step ahead of the law. Others are professional killers in search of a profitable application of their talents between contracts. Some simply love the thrill of overcoming any challenge that stands in their way.",
+						"On adventures, a rogue is likely to mix an outwardly cautious approach\u2014few rogues enjoy combat\u2014with a ravenous hunger for loot. Most of the time, in a rogue's mind, taking up arms against a creature is not about killing the creature but about becoming the new owner of its treasure.",
+						"The following sections explore certain facets of what it means to be a rogue, which you can use to add depth to your character.",
+						{
+							"type": "entries",
+							"name": "Guilty Pleasures",
+							"entries": [
+								"Most of what rogues do revolves around obtaining treasure and preventing others from doing the same. Little gets in the way of attaining those goals, except that many rogues are enticed away from that path by a compulsion that clouds their thinking\u2014an irresistible need that must be satisfied, even if doing so is risky.",
+								"A rogue's guilty pleasure could be the acquisition of a physical item, something to be experienced, or a way of conducting oneself at certain times. One rogue might not be able to pass up any loot made of silver, for instance, even if said loot is hanging around the neck of a castle guard. Another one can't go through a day in the city without lifting a purse or two, just to keep in practice.",
+								"What's the one form of temptation that your rogue character can't resist when the opportunity presents itself, even if giving into it might mean trouble for you and your companions?",
+								{
+									"type": "table",
+									"caption": "Guilty Pleasures",
+									"colLabels": [
+										"{@dice d6}",
+										"Pleasure"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"Large gems"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"A smile from a pretty face"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"A new ring for your finger"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"The chance to deflate someone's ego"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"The finest food and drink"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"Adding to your collection of exotic coins"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adversaries",
+							"entries": [
+								"Naturally, those who enforce the law are bound to come up against those who break it, and it's the rare rogue who isn't featured on at least one wanted poster. Beyond that, it's in the nature of their profession that rogues often come into contact with criminal elements, whether out of choice or necessity. Some of those people can be adversaries too, and they're likely to be harder to deal with than the average member of the city watch.",
+								"If your character's backstory doesn't already include a personage of this sort, you could work with your DM to come up with a reason why an adversary has appeared in your life. Perhaps you've been the subject of scrutiny for a while from someone who wants to use you for nefarious purposes and has just now become known to you. Such an incident could be the basis for an upcoming adventure.",
+								"Does your rogue character have an adversary who also happens to be a criminal? If so, how is this relationship affecting your life?",
+								{
+									"type": "table",
+									"caption": "Adversaries",
+									"colLabels": [
+										"{@dice d6}",
+										"Adversary"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"The pirate captain on whose ship you once served; what you call moving on, the captain calls mutiny"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"A master spy to whom you unwittingly fed bad information, which led to the assassination of the wrong target"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"The master of the local thieves' guild, who wants you to join the organization or leave town"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"An art collector who uses illegal means to acquire masterpieces"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"A fence who uses you as a messenger to set up illicit meetings"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"The proprietor of an illegal pit fighting arena where you once took bets"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Benefactor",
+							"entries": [
+								"Few rogues make it far in life before needing someone's help, which means thereafter owing that benefactor a significant debt.",
+								"If your character's backstory doesn't already include a personage of this sort, you could work with your DM to determine why a benefactor has appeared in your life. Perhaps you benefited from something your benefactor did for you without realizing who was responsible, and that person has now just become known to you. Who helped you in the past, whether or not you knew it at the time, and what do you owe that person as recompense?",
+								{
+									"type": "table",
+									"caption": "Benefactors",
+									"colLabels": [
+										"{@dice d6}",
+										"Benefactor"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"A smuggler kept you from getting caught but lost a valuable shipment in doing so. Now you owe that person an equally valuable favor."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"The Beggar King has hidden you from your pursuers many times, in return for future considerations."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"A magistrate once kept you out of jail in return for information on a powerful crime lord."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Your parents used their savings to bail you out of trouble in your younger days and are now destitute."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"A dragon didn't eat you when it had a chance, and in return you promised to set aside choice pieces of treasure for it."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"A druid once helped you out of a tight spot; now any random animal you see could be that benefactor, perhaps come to claim a return favor."
+										]
+									]
+								}
+							]
+						}
+					],
+					"page": 44,
+					"source": "XGE"
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Thieves' Cant*",
+			"source": "JHC-ROGUE",
+			"page": 94,
+			"srd": true,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 1,
+			"entries": [
+				"During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+				"In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.",
+				{
+					"type": "entries",
+					"name": "Trusted Crew*",
+					"entries": [
+						"You can teach your allies a few basic phrases and symbols of thieves' cant to enable them to understand your own coded dialect and secret messages.",
+						"Whenever you finish a long rest, you may choose a number of creatures equal to your Intelligence modifier (minimum of 1). If you were able to teach these creatures some basic phrases during your rest, they gain the Trusted Crew status and can understand you whenever you speak, write, or sign in thieves' cant.",
+						"Your trusted crew can't speak or understand thieves' cant as a general practice-only the unique dialect spoken by you and the rest of your crew.",
+						{
+							"type": "entries",
+							"name": "Change Dialect",
+							"entries": [
+								"When you finish a long rest, you can change your specific dialect of thieves' cant. Any creature that had your Trusted Crew status now loses it."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Greater Trusted Crew",
+							"entries": [
+								"Starting at 5th-level, creatures that benefit from your Trusted Crew status can now speak and sign in thieves' cant with you or any other creature that has your Trusted Crew status."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Secret Message*",
+					"entries": [
+						"You can spend a bonus action to pass a secret message in thieves' cant to a creature that can see or hear you clearly. Your message can be conveyed vocally or with sign language, and can be up to two words long."
+					]
+				}
+			]
+		},
+		{
+			"name": "Steady Aim*",
+			"source": "JHC-ROGUE",
+			"page": 62,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level rogue}",
+				"As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+			]
+		},
+		{
+			"name": "Ability Score Improvement and Feat*",
+			"source": "JHC-ROGUE",
+			"page": 94,
+			"srd": true,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"And you may also take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Proficiency Versatility*",
+			"source": "JHC-ROGUE",
+			"page": 3,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 4,
+			"entries": [
+				"{@i 4th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Proficiency Versatility*",
+			"source": "JHC-ROGUE",
+			"page": 3,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 8,
+			"entries": [
+				"{@i 8th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Proficiency Versatility*",
+			"source": "JHC-ROGUE",
+			"page": 3,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Reliable Talent*",
+			"source": "JHC-ROGUE",
+			"page": 94,
+			"srd": true,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 11,
+			"entries": [
+				"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+			]
+		},
+		{
+			"name": "Proficiency Versatility*",
+			"source": "JHC-ROGUE",
+			"page": 3,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 12,
+			"entries": [
+				"{@i 12th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Proficiency Versatility*",
+			"source": "JHC-ROGUE",
+			"page": 3,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 16,
+			"entries": [
+				"{@i 16th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Proficiency Versatility*",
+			"source": "JHC-ROGUE",
+			"page": 3,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"level": 19,
+			"entries": [
+				"{@i 19th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Arcane Trickster*",
+			"source": "JHC-ROGUE",
+			"page": 97,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Arcane Trickster*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"entries": [
+				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mage Hand Legerdemain|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|3"
+				}
+			]
+		},
+		{
+			"name": "Mage Hand Legerdemain",
+			"source": "JHC-ROGUE",
+			"page": 97,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Arcane Trickster*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, when you cast {@spell mage hand}, you can make the spectral hand {@condition invisible}, and you can perform the following additional tasks with it:",
+				{
+					"type": "list",
+					"items": [
+						"You can stow one object the hand is holding in a container worn or carried by another creature.",
+						"You can retrieve an object in a container worn or carried by another creature.",
+						"You can use {@item thieves' tools|JHC-ROGUE} to pick locks and disarm traps at range."
+					]
+				},
+				"You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ({@skill Sleight of Hand}) check contested by the creature's Wisdom ({@skill Perception}) check.",
+				"In addition, you can use the bonus action granted by your Cunning Action to control the hand."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "JHC-ROGUE",
+			"page": 97,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Arcane Trickster*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|JHC-ROGUE|10} for the general rules of spellcasting and {@book chapter 11|JHC-ROGUE|11} for the {@filter wizard spell list|spells|class=wizard}.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cantrips",
+							"entries": [
+								"You learn three cantrips: {@spell mage hand} and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Arcane Trickster* Spellcasting table shows how many spell slots you have to cast your {@filter Arcane Trickster*|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+								"For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spells Known of 1st-Level and Higher*",
+							"entries": [
+								"You know three 1st-level spells of your choice. Two of which you must choose from the {@filter Arcane Trickster*|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)} spell list and one from the {@filter wizard*|spells|class=wizard*} spell list.",
+								"The Spells Known column of the Arcane Trickster* spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be on the arcane trickster* spell list, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+								"The spells you learn at 7th, 13th, and 20th level can come from the wizard spell list.",
+								"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the arcane trickster* spell list. The new spell must be of a level for which you have spell slots. When you're replacing the spell you gained at 3rd, 7th, 13th, or 20th level you can use the wizard spell list instead."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Intelligence is your spellcasting ability for your arcane trickster* spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a arcane trickster* spell you cast and when making an attack roll with one.",
+								{
+									"type": "abilityDc",
+									"name": "Spell",
+									"attributes": [
+										"int"
+									]
+								},
+								{
+									"type": "abilityAttackMod",
+									"name": "Spell",
+									"attributes": [
+										"int"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spell Versatility*",
+							"entries": [
+								"Whenever you finish a long rest, you can replace one spell of 1st level or higher you learned from this Spellcasting feature with another spell from the {@filter Arcane Trickster*|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)} spell list. The new spell must be the same level as the spell you replace.",
+								"When you replace a spell learned from the wizard list (3rd-, 7th-, 13th- and 20th-level) you can pick from the wizard spell list instead for that spell.",
+								"You can use this ability a number of times equal to your spellcasting ability modifier at character creation. At 20th level you regain uses of this ability equal to your current spellcasting ability modifier."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magical Ambush",
+			"source": "JHC-ROGUE",
+			"page": 97,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Arcane Trickster*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn."
+			]
+		},
+		{
+			"name": "Versatile Trickster",
+			"source": "JHC-ROGUE",
+			"page": 97,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Arcane Trickster*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you gain the ability to distract targets with your {@spell mage hand}. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn."
+			]
+		},
+		{
+			"name": "Spell Thief",
+			"source": "JHC-ROGUE",
+			"page": 97,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Arcane Trickster*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
+				"Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Assassin*",
+			"source": "JHC-ROGUE",
+			"page": 225,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Assassin*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"entries": [
+				"You focus your training on the grim art of death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Assassinate|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|3"
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "JHC-ROGUE",
+			"page": 225,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Assassin*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise kit|phb} and the {@item poisoner's kit|phb}. You can use a bonus action to apply a dose of poison to a weapon or piece of ammunition."
+			]
+		},
+		{
+			"name": "Assassinate",
+			"source": "JHC-ROGUE",
+			"page": 225,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Assassin*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you are at your deadliest in the first chaotic moments of combat. You have advantage on attack rolls against any creature that hasn't taken an action in the combat yet. In addition, the first creature you hit with a weapon attack during your first turn of combat is dealt additional damage equal to the result of rolling half of your Sneak Attack dice (rounded up). If the creature is surprised, you deal additional damage equal to the result of rolling your Sneak Attack dice instead."
+			]
+		},
+		{
+			"name": "Impostor",
+			"source": "JHC-ROGUE",
+			"page": 225,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Assassin*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, your abilities of disguise become impeccable, allowing you to mimic others with ease. You can spend 1 hour studying one of three components of a creature's behaviour (your choice, given sufficient materials) -- listening to speech, examining handwriting, or observing mannerisms. Once this study is complete, when you attempt to mimic that component of their behaviour, your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma ({@skill Deception}) check you make to avoid detection.",
+				"You can repeat this process to mimic additional behavior components for the same person or other people."
+			]
+		},
+		{
+			"name": "Master of Poisons",
+			"source": "JHC-ROGUE",
+			"page": 225,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Assassin*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you've learned the deepest secrets of making and using poison. During a long rest, you can use a poisoner's kit to craft a single dose of one of the following poisons. Poisons crafted this way are unstable, and lose their potency after 24 hours. When your poison's effects require a saving throw, the DC equals 8 + your proficiency bonus + your dexterity modifier.",
+				"A poison's method of delivery is indicated in brackets, as defined in Chapter 8 of the DMG.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Wyvern's Sting (Injury)",
+							"entries": [
+								"This poison replicates the highly lethal venom of a wyvern. A creature subjected to this poison must make a Constitution saving throw, taking ({@dice 7d6}) poison damage on a failed save, or half as much on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Troll's Bane (Injury)",
+							"entries": [
+								"This horrific poison only activates on contact with open air, dissolving flesh and veins as the extremely corrosive substance is pumped through the body. A creature subjected to this poison must make a Constitution saving throw, taking ({@dice 3d6}) acid damage on a failed save, or half as much on a successful one. On a failed save, the poison also enters the creature's bloodstream for 1 minute if it isn't a construct or undead. At the end of each of its turns, the creature takes ({@dice 3d6}) acid damage and can make another Constitution saving throw, ending the effect on a success."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mindscour (Injury)",
+							"entries": [
+								"This poison is a potent neurotoxin, so painful it can blind its victims. A creature subjected to this poison must make a Constitution saving throw. On a failed save, the creature takes ({@dice 2d8}) psychic damage and is {@condition poisoned}. While {@condition poisoned} in this way, the target is also {@condition blinded}. At the end of each of its turns, the creature can make another Constitution saving throw, ending the effect on a success. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Embrace of Myrkul (Ingested)",
+							"entries": [
+								"A highly esoteric poison, this concoction puts its victims into such a deep torpor that they appear dead to all onlookers. A creature subjected to this poison must make a Constitution saving throw, which it can choose to fail. On a failed save, the creature is subjected to the effects of the {@spell feign death} spell for 24 hours. The effect ends if the creature takes damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Death Strike",
+			"source": "JHC-ROGUE",
+			"page": 225,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Assassin*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you become a master of instant death. When you hit a creature with a weapon attack, you can force it to make a Constitution saving throw against a DC equal to 14 + your dexterity modifier. A surprised creature has disadvantage on the saving throw. On a failure, the damage dealt to it by the attack is doubled and it fails any saving throws against poisons until the end of the turn.",
+				"You can use this feature two times but only once per initiative roll. You regain all uses after you finish a long rest."
+			]
+		},
+		{
+			"name": "Divine Agent*",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"entries": [
+				"Not all priests are clerics. Not all problems can be solved by prayer and preaching. Sometimes a more subtle touch is needed to steer the world as the faith dictates, and that is the roll of a Divine Agent. A blade in the night that commits the lesser evil for the greater good, or a quick end to someone that sniffed too close the Cult of Vecna's business, both could be the work of these divinely guided rogues.",
+				"Good is not nice, evil is not stupid. Whatever the organization or god a Divine Agent serves, it is one that understands the practical nature of the world. Spying, stealing, extracting information, purging the heretics... they have many tasks before them, and complete them with a grim determination.",
+				"A Divine Agent is almost always lawful following an organizational code with zealous focus, but the laws they follow may or may not have any relation to the laws of the land they are in.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Divine Agent Quirks",
+							"entries": [
+								"The following are some optional quirks for a player of the Divine Agent to choose from. They can be preexisting when you make your character leading you to this path, or manifest as your character takes on this archetype."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "",
+							"colLabels": [
+								"{@dice d6}",
+								"Quirk"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										}
+									},
+									"When you start talking passionately, your eyes begin to glow with zeal."
+								],
+								[
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										}
+									},
+									"You burn the corpses of your fallen enemies. No exceptions."
+								],
+								[
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										}
+									},
+									"You recite a mantra to your deity during combat or times of peril."
+								],
+								[
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										}
+									},
+									"You use the pronoun we, you and your god as act as one."
+								],
+								[
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										}
+									},
+									"You inscribe a prayer on your weapons to send off the departed."
+								],
+								[
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										}
+									},
+									"You do not fear death. You believe your service will not end when your life does."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Church Militant|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3"
+				},
+								{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Purification|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Revelation|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3"
+				}
+			]
+		},
+		{
+			"name": "Church Militant",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency with martial weapons and the {@skill Religion} skill.",
+				"Also, when you use {@item holy water (flask)|phb|holy water} as a weapon, it counts as a ranged weapon with which you are proficient."
+			]
+		},
+		{
+			"name": "Purification",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, when you deal damage with your Sneak Attack, you can choose to deal the extra damage as Radiant damage."
+			]
+		},
+		{
+			"name": "Revelation",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn two of the following cantrips: {@spell bless the dead*}, {@spell light}, {@spell mending}, {@spell message} and {@spell thaumaturgy}.",
+				"Additionally, you can cast {@spell detect evil and good}, {@spell prayer of healing} and {@spell zone of truth} once without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+				"Wisdom is your spellcasting ability for all your Divine Agent spells (Spell save DC = 8 + your proficiency bonus + your Wisdom modifier) and you can use a {@item holy symbol|phb} as a focus for these spells. See chapter 10 PHB for the general rules of spellcasting."
+			]
+		},
+		{
+			"name": "Sanctification",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you learn the {@spell guidance} cantrip. And you can cast {@spell divine favor}, {@spell protection from evil and good} and {@spell shield of faith} without expending a spell slot a number of times equal to your Wisdom modifier (minimum of 1) (combining all uses). You regain the ability to do so when you finish a long rest.",
+				"Additionally, the number of times you can cast each spell in Revelation is increased by +1.",
+				"Also, during a short or long rest, you can create one pint of {@item holy water (flask)|phb|holy water} from normal water by reciting a ten minute ritual expending 25 gp worth of powdered silver in the process."
+			]
+		},
+		{
+			"name": "Gnosis",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you learn the {@spell word of radiance|xge} cantrip. And you can cast {@spell sending}, {@spell speak with dead} and {@spell tongues} without expending a spell slot three times (combining all uses). You regain the ability to do so when you finish a long rest.",
+				"Additionally, if you have dealt radiant damage to a creature (aberration, celestial, elemental, fey, fiend or undead) within the last minute (applies to the last creature hit), you have advantage on all Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks against it as well as any of its magical effects or spells, and you can see it normally in darkness, both magical and nonmagical, to a distance of 60 feet."
+			]
+		},
+		{
+			"name": "Cleansing Fire",
+			"source": "JHC-ROGUE",
+			"page": 226,
+			"className": "Rogue*",
+			"classSource": "JHC-ROGUE",
+			"subclassShortName": "Divine Agent*",
+			"subclassSource": "JHC-ROGUE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can use a bonus action to grasp your holy symbol and burn away any evil affliction, ending the effect of a curse, disease, or condition inflicted by magic on yourself. When you do this, you take 1d12 fire damage that cannot be resisted in any way, but gain an equal amount of temporary hit points.",
+				"Once you use this feature, you cannot do so again until you complete a short or long rest.",
+				"Additionally, {@spell fire shield} and {@spell flame strike} are added to the spells you can cast using Sanctification.And the number of times you can cast spells in Sanctification is increased by +1." 
+			]
+		}
+	]
+}
