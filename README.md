@@ -1,3 +1,5 @@
+## Also read the readme-jhc.txt
+
 ## 5e.tools
 
 Visit the [main site](https://5e.tools/5etools.html) or go to the unofficial GitHub [mirror](5etools.html).
