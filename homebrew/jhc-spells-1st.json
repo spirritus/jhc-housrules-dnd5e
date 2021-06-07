@@ -1,0 +1,1202 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-1",
+				"abbreviation": "JHC-SPELLS-1",
+				"full": "House Rules JHC-SPELLS-1",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Command*",
+			"source": "JHC-SPELLS-1",
+			"page": 223,
+			"srd": true,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You speak a two-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.",
+				"Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.",
+				{
+					"type": "entries",
+					"name": "Approach",
+					"entries": [
+						"The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drop",
+					"entries": [
+						"The target drops whatever it is holding and then ends its turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flee",
+					"entries": [
+						"The target spends its turn moving away from you by the fastest available means."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grovel",
+					"entries": [
+						"The target falls {@condition prone} and then ends its turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Halt",
+					"entries": [
+						"The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Conquest",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Order",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Glamour",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"source": "PHB"
+						}
+					}
+				]
+			}		
+		},
+		{
+			"name": "Earth Tremor*",
+			"source": "JHC-SPELLS-1",
+			"page": 155,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 17
+				}
+			],
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 1d6} bludgeoning damage, is knocked {@condition prone} and can't take reactions until the start of their next turn. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"R"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Find Familiar*",
+			"source": "JHC-SPELLS-1",
+			"page": 240,
+			"srd": true,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You gain the service of a familiar, a spirit that takes an animal form you choose: {@creature bat}, {@creature cat}, {@creature crab}, {@creature frog} (toad), {@creature hawk}, {@creature lizard}, {@creature octopus}, {@creature owl}, {@creature poisonous snake}, fish ({@creature quipper}), {@creature rat}, {@creature raven}, {@creature sea horse}, {@creature spider}, or {@creature weasel}. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast. Its hit points are 1d4+1.",
+				"{@note Additional {@filter animal form choices|bestiary|Miscellaneous=Familiar} may be available at the DM's discretion.}",
+				"Your familiar acts independently of you, but it always obeys your commands. In combat, it acts within your initiative on your turn. A familiar can't attack, but it can take other actions as normal.",
+				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
+				"While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses.",
+				"As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+				"You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
+				"Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
+			],
+			"miscTags": [
+				"PRM",
+				"SGT",
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Flaming Spear*",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You evoke a fiery spear that flies forward from the struck kindling. Make a ranged spell attack against the target within range. On a hit, the target takes {@damage 1d8} piercing damage.",
+				"The spear impales the target, one creature in the path of the spear behind the target within 5ft is also hit. The second creature takes piercing damage equal to your spellcasting ability modifier.",
+				"Hit or miss, the spear then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take {@damage 2d6} fire damage.",
+				"Flammable objects hit by this spell ignite if they aren't being worn or carried."
+			],
+			"source": "JHC-SPELLS-1",
+			"components": {
+				"s": true,
+				"m": "a bit of used kindling and a flintstone"
+			},
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"piercing"
+			]
+		},
+		{
+			"name": "Grease*",
+			"source": "JHC-SPELLS-1",
+			"page": 246,
+			"srd": true,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of pork rind or butter"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.",
+				"When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall {@condition prone}. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall {@condition prone}.",
+				"The grease is flammable. Any 5-foot cube of grease exposed to fire burns away in 1 round, dealing {@dice 1d6} fire damage to any creature that starts its turn in the fire."
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"Q"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Goodberry*",
+			"source": "JHC-SPELLS-1",
+			"page": 246,
+			"srd": true,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a sprig of mistletoe, which the spell consumes"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.",
+				"The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell."
+			],
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Hellfire Lash*",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You transform your whip used in the spell casting into a flaming lash, striking out with scorching fury. Make a melee spell attack with the whip against one creature within the reach of your weapon + 5 ft.",
+				"On a hit, the target suffers the weapon attack's normal effects and the target takes an additional {@damage 1d8} fire damage. You can then use a bonus action to hurl the target to a location of your choosing within 10 feet of their starting location. If they impact another creature or a surface other than the ground, both take an additional {@damage 1d8} bludgeoning damage."
+			],
+			"source": "JHC-SPELLS-1",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a whip worth at least 1 sp"
+			},
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, either the fire or bludgeoning damage (your choice) increases by {@scaledamage 1d8|1-9|1d8} per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"fire"
+			],
+			"spellAttack": [
+				"M"
+			]
+		},
+		{
+			"name": "Ice Knife*",
+			"source": "JHC-SPELLS-1",
+			"page": 157,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 19
+				}
+			],
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a drop of water or piece of ice"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take {@damage 2d6} cold damage and reduce their speed by 5 feet until the end of their next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by {@scaledamage 2d6|1-9|1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"piercing"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Inquisitors's Mark*",
+			"source": "JHC-SPELLS-1",
+			"page": 251,
+			"srd": true,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You choose a creature you can see within range and mystically mark it as your nemesis. Until the spell ends, you deal an extra {@damage 1d6} damage to the target whenever you hit it with a weapon attack. Additionally the target must roll with disadvantage when it makes Intimidation and Deception checks against you, for as long as you are able to maintain concentration. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."
+					]
+				}
+			],
+			"abilityCheck": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Vengeance",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Jim's Magic Missile*",
+			"source": "JHC-SPELLS-1",
+			"page": 76,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "A Saphire worth at least 10gp or 10gp, which the spell consumes"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"Jim's magic missile is an ancient and powerful spell, as well as being the name of my band in Wizard Academy."
+					],
+					"by": "Jim Darkmagic"
+				},
+				"Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic!",
+				"You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals {@damage 2d4} force damage to its target.",
+				"If the attack roll scores a critical hit, the target of that missile takes {@damage 5d4} force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the material component increases by 1 gp, for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Jump*",
+			"source": "JHC-SPELLS-1",
+			"page": 254,
+			"srd": true,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a grasshopper's hind leg"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a creature. The creature's {@book jump distance|phb|8|Jumping} is tripled until the spell ends. Fall damage up to 20 feet deals no damage to this creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the jump height and fall damage immunity increases by five feet per spell slot level."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"eldritchInvocations": [
+				{
+					"name": "Otherworldly Leap",
+					"source": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Magic Fang*",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You touch one creature. That creature gains a natural weapon (bite) for the duration of the spell and it is proficient with the weapon. The weapon uses STR or DEX (creatures choice).",
+				"The creature can use its bonus action to make a melee attack with the natural weapon against a target within 5ft. On a hit, the target takes {@damage 1d4} slashing damage."
+			],
+			"source": "JHC-SPELLS-1",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, that weapon becomes a magic weapon with a +1 bonus to attack and damage rolls. When you use a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3."
+					]
+				}
+			],
+			"damageInflict": [
+				"slashing"
+			]
+		},
+		{
+			"name": "Overgrowth*",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a 10-foot-radius area of thick overgrowth centered on a point within range. The cylinder spreads around corners, and its area is heavily obscured and difficult terrain. It lasts for the duration or until it is destroyed.",
+				"If the overgrowth is lit on fire, it burns away immediately. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 2d6} fire damage, or half damage on a successful one."
+			],
+			"source": "JHC-SPELLS-1",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the radius of the overgrowth increases by 10 feet for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Predator Instinct*",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You bestow one creature of your choice within range with keen hunting instincts. The target has advantage on initiative rolls, and has advantage on attack rolls against any creature that hasn't taken a turn in the combat yet.",
+				"The spell ends after the targets first turn of combat."
+			],
+			"source": "JHC-SPELLS-1",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			]
+		},
+		{
+			"name": "Resurgence*",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A creature of your choice within range that can hear you, can immediately make another saving throw against an ongoing spell or effect that is currently afflicting it. If the new saving throw succeeds, the effect ends at the end of your turn."
+			],
+			"source": "JHC-SPELLS-1",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Witch Bolt*",
+			"source": "JHC-SPELLS-1",
+			"page": 289,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a twig from a tree that has been struck by lightning"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A beam of crackling, blue energy lances out toward a creature within range. Make a ranged spell attack against that creature. On a hit the target takes {@damage 2d6} lightning damage and a sustained arc of lightning forms between you and it.",
+				"For the duration of the spell you can use an action to make the above spell attack against another target causing the damage and forming an additional arc on a hit. Alternatively, for the duration of the spell you can use your action and choose one target with which you have an arc and automatically deal {@damage 2d6} lightning damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@scaledamage 2d6|1-9|2d6} for each slot level above 1st, and the automatic damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
