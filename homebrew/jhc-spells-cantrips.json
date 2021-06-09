@@ -607,7 +607,7 @@
 				]
 			},
 			"entries": [
-				"You conjure a small vine with a reach of 5 feet. Whenever a creature enters its reach, you may use your reaction to have the sprout attempt to grasp at its heels, stopping its movement. The target must succeed on a Dexterity saving throw or have their speed reduced to zero until the start of their next turn."
+				"You conjure a small vine with a reach of 10 feet. Whenever a creature enters its reach, you may use your reaction to have the sprout attempt to grasp at its heels, stopping its movement. The target must succeed on a Dexterity saving throw or have their speed reduced to zero until the start of their next turn."
 			],
 			"source": "JHC-CANTRIPS",
 			"components": {
