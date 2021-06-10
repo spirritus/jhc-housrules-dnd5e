@@ -1,0 +1,1076 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-2",
+				"abbreviation": "JHC-SPELLS-2",
+				"full": "House Rules JHC-SPELLS-2",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Aganazzar's Scorcher*",
+			"source": "JHC-SPELLS-2",
+			"page": 150,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 15
+				}
+			],
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a red dragon's scale"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 4d8} fire damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 4d8|2-9|1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"L"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Barkskin*",
+			"source": "JHC-SPELLS-2",
+			"page": 217,
+			"srd": true,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of oak bark"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, granting a +2 bonus to AC. This spell cannot cause the target's AC to be higher than 18."
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Forest"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Explosive Seed*",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You conjure an explosive seed and then throw it a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 4d4} fire damage. On both a hit or a miss, the seed drops to the ground and sizzles violently. At the start of your next turn, the seed explodes. Each creature in a 10-foot radius centered on the seed must make a Dexterity saving throw. A creature takes {@damage 3d4} fire damage on a failed save, or half as much damage on a successful one."
+			],
+			"source": "JHC-SPELLS-2",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the initial damage and the explosion damage each increase by {@scaledamage 1d4|2-9|1d4} for each slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Find Traps*",
+			"source": "JHC-SPELLS-2",
+			"page": 241,
+			"srd": true,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"When you cast this spell, you become aware of how many traps are present within 120 ft of you, and the general nature of the danger posed by the traps. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
+				"This spell senses through wood and softer materials, and it penetrates up to 5 feet of stone, 1 ft of metal, and 1 inch of lead.",
+				"For the spell's duration, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks to locate traps."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Flame Blade*",
+			"source": "JHC-SPELLS-2",
+			"page": 242,
+			"srd": true,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "leaf of sumac"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.",
+				"You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes {@damage 3d6} fire damage.",
+				"The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2,4,6,8|1d6} for every slot level above 2nd to a maximum of 7d6. Additionally, when you cast this spell using a spell slot of 5th level or higher it requires no concentration."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Mephistopheles)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Kareef's Entreaty*",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take just before a creature makes a death saving throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Your kind words offer hope and support to a fallen comrade. Choose a willing creature you can see within range that is about to make a death saving throw. The creature gains advantage on the saving throw, and if the result of the saving throw is 18 or higher, the creature regains {@dice 3d4} hit points immediately."
+			],
+			"source": "JHC-SPELLS-2",
+			"components": {
+				"v": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the creature adds 1 to its death saving throw for every two slot levels above 2nd and regains an additional {@scaledamage 3d4|2,4,6,8|1d4} hit points for each two slot levels above 2nd if its saving throw result is 18 or higher."
+					]
+				}
+			]
+		},
+		{
+			"name": "Melf's Acid Arrow*",
+			"source": "JHC-SPELLS-2",
+			"page": 259,
+			"srd": "Acid Arrow",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "powdered rhubarb leaf and an adder's stomach"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes {@damage 4d4} acid damage immediately. The acid damage will occur again at the end of the target's next turn, but with one less d4 of acid damage rolled. The damage continues to occur and diminish at the end of the target's turn by {@damage 1d4} until the dice drops to 0d4, then it deals no more damage. On a miss, the arrow splashes the target with acid for half as much of the initial damage, and the spell ends with no further effects."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by {@scaledamage 4d4|2-9|1d4} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Swamp"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Alchemist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Primeval Awareness*",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You can attune your senses to the region around you and determine if creatures of a certain type lurk nearby.",
+				"When you begin casting this spell, select the figurine of the type of creature you wish to detect: beast, dragon, elemental, fey, giant, humanoid, monstrosity, plant or undead. For the duration, you know if any creatures of the chosen type are present within 1 mile around you, their numbers, and the creatures' general direction and rough distance from you.",
+				"If there are multiple groups within range, you learn this information for each group."
+			],
+			"source": "JHC-SPELLS-2",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a small figurine worth 10gp, of the type of creature you wish to detect"
+				}
+			},
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Ray of Enfeeblement*",
+			"source": "JHC-SPELLS-2",
+			"page": 271,
+			"srd": true,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength or Dexterity until the spell ends.",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Death",
+							"source": "DMG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ambition (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Golgari Agent",
+					"source": "GGR"
+				},
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Shadow Blade*",
+			"source": "JHC-SPELLS-2",
+			"page": 164,
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You weave together threads of shadow to create a sword of solidified gloom in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals {@damage 2d8} psychic damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that is in dim light or darkness, you make the attack roll with advantage.",
+				"If you drop the weapon or throw it, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause the sword to reappear in your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to {@dice 3d8}. When you cast it using a 5th- or 6th-level spell slot, the damage increases to {@dice 4d8}. When you cast it using a spell slot of 7th level or higher, the damage increases to {@dice 5d8}. Additionally, when you cast this spell using a spell slot of 5th level or higher it requires no concentration."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Snilloc's Snowball Swarm*",
+			"source": "JHC-SPELLS-2",
+			"page": 165,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 22
+				}
+			],
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of ice or a small white rock chip"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d6} cold damage on a failed save, or half as much damage on a successful one.",
+				"Additionally, a creature that fails the saving throw has its movement speed reduced by 15 feet until the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Suffer*",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You point at a creature within range and speak a terrible word, commanding them to suffer. The target must make a Charisma saving throw. If they fail, they take {@damage 2d8} necrotic damage and {@damage 2d8} psychic damage and they have disadvantage on Strength and Dexterity ability checks for 1 round. If they succeed, they take half as much damage and do not have disadvantage."
+			],
+			"source": "JHC-SPELLS-2",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a small figurine worth 10gp, of the type of creature you wish to detect"
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the necrotic damage or the psychic damage (your choice) increases by {@scaledamage 1d8|2-9|1d8} per slot level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"damageInflict": [
+				"necrotic",
+				"psychic"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Suggestion*",
+			"source": "JHC-SPELLS-2",
+			"page": 279,
+			"srd": true,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be {@condition charmed} are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.",
+				"The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.",
+				"You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.",
+				"If you or any of your companions damage the target, the spell ends.",
+				"When the spell has ended the target can roll a wisdom saving throw with disadvantage, on a success it can realize its mind may have been altered."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge (PSA)",
+							"source": "PSA"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Fierna)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Yuan-ti Pureblood",
+					"source": "VGM"
+				}
+			]
+		},
+		{
+			"name": "Zone of Agonizing Lies*",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a magical zone that punishes lies and guards against deception. You create the zone in a 15ft radius sphere centered on a point of your choice within range.Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma Saving Throw. On a failed save, a creature takes {@damage 1d10} psychic damage for every lie it speaks, while in the radius. You know whether each creature succeeds or fails on its saving throw and if it lies or not.",
+				"After a creature takes the damage for the first time it is aware of the spell and can thus choose to avoid to answer any questions to which it would normally respond with a lie. Such a creature can be evasive in its answers and takes no damage as long as it remains within the boundaries of the truth.",
+				"Each time a creature takes the damage it screams in agonizing pain. A creature may roll a Constitution Saving Throw each time to avoid the screams. Starting with the second lie, the Constitution Saving Throw is made with disadvantage since the pain lingers in the brain of the creature."
+			],
+			"source": "JHC-SPELLS-2",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"meta": {
+				"ritual": true
+			},
+			"savingThrow": [
+				"charisma"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"areaTags": [
+				"S"
+			]
+		}
+	]
+}
