@@ -1,0 +1,600 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-3",
+				"abbreviation": "JHC-SPELLS-3",
+				"full": "House Rules JHC-SPELLS-3",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Bridge of Branches*",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause large branches to sprout from a surface, creating a makeshift bridge up to 20 feet in length. The bridge can hold up to 600 pounds at once. The bridge has AC 10 and 50 hit points. If the bridge is reduced to zero hit points, the entire bridge collapses and immediately withers away."
+			],
+			"source": "JHC-SPELLS-3",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tree branch"
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the bridge's length increases by 10 feet, its weight limit increases by 100 pounds, and its hit points increase by 25 for each slot level above 3rd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Counterspell*",
+			"source": "JHC-SPELLS-3",
+			"page": 228,
+			"srd": true,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you see a creature within 60 feet of you casting a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Before you can attempt to counter the spell, check if you recognize the spell (free):",
+				{
+					"type": "list",
+					"items": [
+						"If it is a spell you know, you immediately recognize it, no check necessary.",
+						"Otherwise, roll an Arcana (INT) check DC10 + the spell's level for recognition.",
+						"If you have sorcery points, you can spend 1 sorcery point to re-roll the recognition check.",
+						"If you have the war caster feat, you can make the recognition check with advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If you do recognize the spell:",
+					"entries": [
+						"You can attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect. On a failure nothing happens and the slot is wasted."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If you do not recognize the spell:",
+					"entries": [
+						"You can attempt to interrupt a creature in the process of casting a spell. Make an ability check using your spellcasting ability with disadvantage (DC10 + the spell's level). On a success, thecreature's spell fails and has no effect. Otherwise counterspell has no effect and the slot is wasted."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Upcasting:",
+					"entries": [
+						"If you try to counter an upcasted spell, the recognition DC is still calculated with the base level. However, to counter immediately you have to cast counterspell at a matching spell level or succeed on an spellcasting ability check DC 10 + upcasted spell level, e.g. for an upcasted {@spell Ice Knife*|JHC-SPELLS-1} at level 4 the recognition DC (Arcana) is still 10 + 1 = 11 but you have to cast Counterspell at level 4 or succeed an spellcasting ability check DC 10 + 4 = 14."
+					]
+				},
+				"A flowchart can be found in the Houserules PDF.",
+				{
+					"type": "inset",
+					"name": "Notes",
+					"entries": [
+						"A spellcasting ability check does not use your proficiency modifier. Only your spellcasting ability modifier is added to the roll."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Watchers",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Azorius Functionary",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Curse of Incompetence*",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"By making mocking gestures toward one creature within range that can see you, you leave the creature incapable of performing at its best. If the target fails on an Intelligence saving throw, roll a {@dice d4} and refer to the following table to determine what the target does on its turn. An affected target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or applying the result of another roll on the table on a failure.",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d4}",
+						"Result"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The target spends its turn shouting mocking words at the caster. The target also takes a -5 penalty to its initiative roll (effective next round)."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"The target stands transfixed and blinking and takes no action."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"The target flees or fights (50 percent chance of each)."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"The target charges directly at the caster and attacks enraged."
+						]
+					]
+				},
+				"This is a curse, so a {@spell Remove Curse|PHB} spell ends this effect."
+			],
+			"source": "JHC-SPELLS-3",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"abilityCheck": [
+				"intelligence"
+			]
+		},
+		{
+			"name": "Fell*",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause a non-magical tree to fall, damaging all creatures in its path. You choose the direction that the tree falls, and the area that it effects changes depending on the height of the tree. You cannot target a tree with a diameter greater than 5 feet. Each creature within the line of the trunk must succeed on a Dexterity saving throw or take {@damage 7d8} bludgeoning damage. The tree then remains on the ground, providing partial cover for those behind it."
+			],
+			"source": "JHC-SPELLS-3",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"damageInflict": [
+				"bludgeoning"
+			]
+		},
+		{
+			"name": "Grow/Shrink Beast*",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause a beast you can see within range to grow larger or smaller for the duration.",
+				"Choose a beast. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.",
+				"Everything the target is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
+				{
+					"type": "entries",
+					"name": "Grow.",
+					"entries": [
+						"The target grows two size categories to a maximum of large. For each size category the target's size doubles in all dimensions, and its weight is multiplied by eight. If there isn't enough room for the target reach the target size, the creature attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal {@damage 1d6} extra damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shrink.",
+					"entries": [
+						"The target shrinks two size categories to a minimum of small. For each size category the target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal {@damage 1d6} less damage (this can't reduce the damage below 1)."
+					]
+				}
+			],
+			"source": "JHC-SPELLS-3",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "powdered eggshells"
+			},
+			"areaTags": [
+				"ST"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Lightning Arrow*",
+			"source": "JHC-SPELLS-3",
+			"page": 255,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes {@damage 4d8} lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage. On a hit, the target can't take reactions until the start of its next turn.",
+				"Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes {@damage 2d8} lightning damage on a failed save, or half as much damage on a successful one.",
+				"The piece of ammunition or weapon then returns to its normal form."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by {@scaledamage 4d8;2d8|3-9|1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Skewering Branch*",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause a thick branch to shoot out of the ground along a line 5 feet wide and 30 feet long. Each creature in the line must succeed on a Dexterity saving throw or be pushed along the length of the branch as it grows in a direction of your choice. If the branch impacts a hard surface, such as a wall, it immediately stops and skewers all creatures that were pushed against that wall. Each creature takes {@damage 3d4} piercing damage and is {@condition restrained}, skewered to the surface. A {@condition restrained} creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's saving throw DC. On a failed save, a creature takes an additional {@damage 2d4} piercing damage. On a success, the creature is no longer {@condition restrained}."
+			],
+			"source": "JHC-SPELLS-3",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"L"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"damageInflict": [
+				"piercing"
+			]
+		}
+	]
+}
