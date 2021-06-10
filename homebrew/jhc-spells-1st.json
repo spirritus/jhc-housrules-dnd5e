@@ -561,6 +561,11 @@
 				"On a hit, the target suffers the weapon attack's normal effects and the target takes an additional {@damage 1d8} fire damage. You can then use a bonus action to hurl the target to a location of your choosing within 10 feet of their starting location. If they impact another creature or a surface other than the ground, both take an additional {@damage 1d8} bludgeoning damage."
 			],
 			"source": "JHC-SPELLS-1",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true,
@@ -665,6 +670,11 @@
 		{
 			"name": "Inquisitors's Mark*",
 			"source": "JHC-SPELLS-1",
+			"otherSources": [
+				{
+					"source": "FOTI"
+				}
+			],
 			"page": 251,
 			"srd": true,
 			"level": 1,
@@ -1006,6 +1016,11 @@
 				"If the overgrowth is lit on fire, it burns away immediately. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 2d6} fire damage, or half damage on a successful one."
 			],
 			"source": "JHC-SPELLS-1",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true
@@ -1066,6 +1081,11 @@
 				"The spell ends after the targets first turn of combat."
 			],
 			"source": "JHC-SPELLS-1",
+			"otherSources": [
+				{
+					"source": "FOTI"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true
@@ -1117,6 +1137,11 @@
 				"A creature of your choice within range that can hear you, can immediately make another saving throw against an ongoing spell or effect that is currently afflicting it. If the new saving throw succeeds, the effect ends at the end of your turn."
 			],
 			"source": "JHC-SPELLS-1",
+			"otherSources": [
+				{
+					"source": "FOTI"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true

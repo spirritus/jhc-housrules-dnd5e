@@ -224,6 +224,11 @@
 				"You conjure an explosive seed and then throw it a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 4d4} fire damage. On both a hit or a miss, the seed drops to the ground and sizzles violently. At the start of your next turn, the seed explodes. Each creature in a 10-foot radius centered on the seed must make a Dexterity saving throw. A creature takes {@damage 3d4} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"source": "JHC-SPELLS-2",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true
@@ -430,6 +435,11 @@
 				"Your kind words offer hope and support to a fallen comrade. Choose a willing creature you can see within range that is about to make a death saving throw. The creature gains advantage on the saving throw, and if the result of the saving throw is 18 or higher, the creature regains {@dice 3d4} hit points immediately."
 			],
 			"source": "JHC-SPELLS-2",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
 			"components": {
 				"v": true
 			},
@@ -582,6 +592,11 @@
 				"If there are multiple groups within range, you learn this information for each group."
 			],
 			"source": "JHC-SPELLS-2",
+			"otherSources": [
+				{
+					"source": "FOTI"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true,
@@ -881,6 +896,11 @@
 				"You point at a creature within range and speak a terrible word, commanding them to suffer. The target must make a Charisma saving throw. If they fail, they take {@damage 2d8} necrotic damage and {@damage 2d8} psychic damage and they have disadvantage on Strength and Dexterity ability checks for 1 round. If they succeed, they take half as much damage and do not have disadvantage."
 			],
 			"source": "JHC-SPELLS-2",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
 			"components": {
 				"v": true,
 				"s": true,
