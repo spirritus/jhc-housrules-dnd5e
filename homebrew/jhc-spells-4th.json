@@ -1,0 +1,840 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-4",
+				"abbreviation": "JHC-SPELLS-4",
+				"full": "House Rules JHC-SPELLS-4",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Dark Empowerment*",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You channel dark energy into your body, distorting your form and making you fearsome to behold. Your size increases to Large if it is smaller, and your equipment grows to suit your expanded form. If there is insufficient space, you grow as large as you safely can. While in this form, your weapon attacks inflict an additional {@damage 1d8} damage of their normal type and you gain temporary hit points equal to twice your spellcasting modifier at the start of each of your turns that last for the duration of the spell."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"miscTags": [
+				"THP"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Echoes of Steel*",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends the sounds of the impact are magically amplified. All creatures you designate within 30 feet of you must make a Constitution saving throw. A creature takes thunder damage equal to the damage from the melee attack on a failed save, or half as much damage on a successful one."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
+			"components": {
+				"v": true
+			},
+			"areaTags": [
+				"MT",
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"thunder"
+			]
+		},
+		{
+			"name": "Find Improved Familiar*",
+			"source": "JHC-SPELLS-4",
+			"page": 240,
+			"srd": true,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You gain the service of a familiar, a spirit that takes an animal form you choose: {@creature bat}, {@creature cat}, {@creature crab}, {@creature frog} (toad), {@creature hawk}, {@creature lizard}, {@creature octopus}, {@creature owl}, {@creature poisonous snake}, fish ({@creature quipper}), {@creature rat}, {@creature raven}, {@creature sea horse}, {@creature spider}, or {@creature weasel}. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast. Its hit points are 3d4+3 and it gains a +2 bonus to AC. The familiars INT becomes 8, if it is not higher already, and it knows one language you know.",
+				"{@note Additional {@filter animal form choices|bestiary|Miscellaneous=Familiar} may be available at the DM's discretion.}",
+				"Your familiar acts independently of you, but it always obeys your commands. In combat, it acts within your initiative on your turn. A familiar can't attack, but it can take other actions as normal.",
+				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
+				"While your familiar is within 1 mile of you, you can communicate with it telepathically (via language). Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses.",
+				"As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+				"You can't have more than one familiar at a time. If you cast this spell or {@spell Find Familiar*|JHC-SPELLS-1} while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
+				"Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 1 mile of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.",
+				"Finally, when you cast this spell, you can choose to imbue your familiar with some of your magical force. Pick one cantrip of your own. While your familiar is not dismissed you cannot cast that cantrip but now your familiar can cast a cantrip, choose {@spell Dancing Lights} or {@spell Gust|XGE}. If the cantrip you chose is a non damaging one, you can instead chose that as cantrip for your familiar.",
+				"Additionally, when you cast this spell and trade a cantrip, you can also transfer up to 7 spell points to your familiar (see Houserules PDF about spellpoints). Your spell points are reduced by that amount and your familiar gains them as spell slots of up to 2nd-level.",
+				"Pick two non damaging spells from the wizard spell list. Your familiar can then cast these spells using its gained spell slots. The spells must not have a material that is either consumed or has a cost (GP). Your familiar does not need material components for the spells it gained. The familiars spell save DC is yours -1. The familiar regains the spell slots after a long rest. You can change the spells once per long rest, when you recast {@spell Find Improved Familiar*|JHC-SPELLS-4}.",
+				"The reduction of your spell points lasts as long as your familiar has hit points, when the familiar drops to 0 hit points you regain your traded spell points after a long rest."
+			],
+			"miscTags": [
+				"PRM",
+				"SGT",
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Grasping Vine*",
+			"source": "JHC-SPELLS-4",
+			"page": 246,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine and {@condition grappled} by it (the escape DC is your spellcasting DC).",
+				"The vine has AC 15, 100 hit points, immunity to poison and psychic damage, and resistance to all other damage types except slashing, fire and necrotic.",
+				"Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns. If it lashes out while grappling a creature, that creature is freed."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Golgari Agent",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Ice Storm*",
+			"source": "JHC-SPELLS-4",
+			"page": 252,
+			"srd": true,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of dust and a few drops of water"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. ",
+				"When the storm appears, each creature in the cylinder must make a Dexterity saving throw. A creature takes {@damage 2d8} bludgeoning damage and {@damage 4d6} cold damage on a failed save, or half as much damage on a successful one.",
+				"Each creature that ends its turn within the storms area takes {@damage 4d6} cold damage. A creature takes the same damage when it enters the storms area for the first time.",
+				"Hailstones turn the storm's area of effect into difficult terrain until the end of your next turn when the storm ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by {@scaledamage 2d8|4-9|1d8} for each slot level above 4th  and the cylinder's height increases by 10 feet for each spell slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Tempest",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Arctic"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Reposition*",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You designate up to three friendly creatures (one of which can be yourself) within range. Each target teleports to an unoccupied space of its choosing that it can see within 30 feet of itself."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
+			"components": {
+				"v": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the spell targets one additional friendly creature for each slot level above 4th."
+					]
+				}
+			],
+			"areaTags": [
+				"MT"
+			],
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Resest*",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Choose up to four creatures within range. If a target is your ally, it can reroll initiative, keeping whichever of the two results it prefers. If a target is your enemy, it must make a successful Wisdom saving throw or reroll initiative, keeping whichever of the two results you prefer. Changes to the initiative order go into effect at the start of the next round."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a sheet of paper and a 20 sided die"
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature for each slot level above 4th."
+					]
+				}
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Sacrificial Healing*",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You heal another creature's wounds by taking them upon yourself. Roll {@dice 4d8}, the number rolled is the amount of damage healed by the target and the damage you take, as its wounds close and similar damage appears on your body."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a silver knife, worth at least 1 sp"
+				}
+			},
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Tree Strike*",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause a tree to grasp at a creature within 10 feet of it with its branches, pulling and constricting that creature. The target must succeed on a Dexterity saving throw or take {@damage 6d8} bludgeoning damage, be pulled to the tree, and become {@condition restrained}. At the start of each of its turns, the {@condition restrained} creature takes {@damage 2d8} bludgeoning damage. A {@condition restrained} creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's saving throw DC. On a success, the creature is no longer {@condition restrained}."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small twig"
+			},
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Wayward Strike*",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a melee or ranged attack is made against you"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a tear in the fabric of reality that protects you from an incoming attack by directing it through a second tear close to a creature you can see (includes the attacker) within range. The attack plunges into one dimensional tear and out the other one, causing it to be resolved against that creature's AC using the original attack roll (if any).  If the attack is successful, the creature takes the appropriate damage. Critical hits are reduced to normal hits."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "KPDM"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Windblade*",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"With a sweeping gesture you unleash an {@condition invisible} scythe of wind in a 30-foot cone. Creatures within the area must make a Dexterity saving throw. If they fail, they take {@damage 8d8} slashing damage. This damage ignores the resistances of unattended objects, cutting cleanly through trees and thin walls."
+			],
+			"source": "JHC-SPELLS-4",
+			"otherSources": [
+				{
+					"source": "RTCL"
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"N"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the slashing damage increases by {@dice 1d8} per slot level above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"damageInflict": [
+				"slashing"
+			]
+		}
+	]
+}
