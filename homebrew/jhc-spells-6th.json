@@ -1,0 +1,150 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-6",
+				"abbreviation": "JHC-SPELLS-6",
+				"full": "House Rules JHC-SPELLS-6",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Dryad's Leap†",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You choose up to 10 Large or larger inanimate plants that you can see within range. For the duration, you and up to 10 other creatures of your choice within range can step into one of these plants and exit from any of the other plants targeted by this spell by using 5 feet of movement. Each creature may only use this ability once per round."
+			],
+			"source": "JHC-SPELLS-6",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the range increases by 200 feet and the maximum number of plants and creatures chosen increases by 2 for each slot level above 6th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lesser Plane Shift†",
+			"source": "JHC-SPELLS-6",
+			"page": 266,
+			"srd": true,
+			"level": 6,
+			"school": "C",
+			"meta": {
+				"ritual": true
+			},
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence",
+					"cost": 25000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.",
+				"Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.",
+				"In contrast to the 7th level spell {@spell Plane Shift|PHB} this lesser version of the spell puts strain on its components. When you cast this spell the spell component (metal rod, tuning fork, etc.) needs to realign itself after the transportation has completed. You cannot use this spell component again until you finish a long rest. You can, however, use a different spell component."
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
