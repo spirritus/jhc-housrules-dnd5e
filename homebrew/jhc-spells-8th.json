@@ -1,0 +1,77 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-8",
+				"abbreviation": "JHC-SPELLS-8",
+				"full": "House Rules JHC-SPELLS-8",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Mighty Fortress†",
+			"source": "JHC-SPELLS-8",
+			"page": 161,
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "miles",
+					"amount": 1
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a diamond worth at least 500 gp, which the spell consumes",
+					"cost": 50000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"NOPE."
+			],
+			"damageImmune": [
+				"poison",
+				"psychic"
+			],
+			"miscTags": [
+				"PRM",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
