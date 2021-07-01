@@ -166,7 +166,7 @@
 			"source": "JHC-SPELLS-4",
 			"page": 240,
 			"srd": true,
-			"level": 1,
+			"level": 4,
 			"school": "C",
 			"time": [
 				{
@@ -503,7 +503,7 @@
 			]
 		},
 		{
-			"name": "Resest†",
+			"name": "Reset†",
 			"level": 4,
 			"school": "T",
 			"time": [
