@@ -21,7 +21,7 @@
 	},
 	"spell": [
 		{
-			"name": "Aganazzar's Scorcher*",
+			"name": "Aganazzar's Scorcher†",
 			"source": "JHC-SPELLS-2",
 			"page": 150,
 			"otherSources": [
@@ -90,7 +90,7 @@
 			}
 		},
 		{
-			"name": "Barkskin*",
+			"name": "Barkskin†",
 			"source": "JHC-SPELLS-2",
 			"page": 217,
 			"srd": true,
@@ -179,7 +179,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Explosive Seed*",
+			"name": "Explosive Seed†",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -256,7 +256,7 @@
 			]
 		},
 		{
-			"name": "Find Traps*",
+			"name": "Find Traps†",
 			"source": "JHC-SPELLS-2",
 			"page": 241,
 			"srd": true,
@@ -323,7 +323,7 @@
 			}
 		},
 		{
-			"name": "Flame Blade*",
+			"name": "Flame Blade†",
 			"source": "JHC-SPELLS-2",
 			"page": 242,
 			"srd": true,
@@ -401,7 +401,7 @@
 			]
 		},
 		{
-			"name": "Kareef's Entreaty*",
+			"name": "Kareef's Entreaty†",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -456,7 +456,7 @@
 			]
 		},
 		{
-			"name": "Melf's Acid Arrow*",
+			"name": "Melf's Acid Arrow†",
 			"source": "JHC-SPELLS-2",
 			"page": 259,
 			"srd": "Acid Arrow",
@@ -553,7 +553,7 @@
 			}
 		},
 		{
-			"name": "Primeval Awareness*",
+			"name": "Primeval Awareness†",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -609,7 +609,7 @@
 			}
 		},
 		{
-			"name": "Ray of Enfeeblement*",
+			"name": "Ray of Enfeeblement†",
 			"source": "JHC-SPELLS-2",
 			"page": 271,
 			"srd": true,
@@ -711,7 +711,7 @@
 			]
 		},
 		{
-			"name": "Shadow Blade*",
+			"name": "Shadow Blade†",
 			"source": "JHC-SPELLS-2",
 			"page": 164,
 			"level": 2,
@@ -777,7 +777,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Snilloc's Snowball Swarm*",
+			"name": "Snilloc's Snowball Swarm†",
 			"source": "JHC-SPELLS-2",
 			"page": 165,
 			"otherSources": [
@@ -847,7 +847,7 @@
 			}
 		},
 		{
-			"name": "Suffer*",
+			"name": "Suffer†",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -931,7 +931,7 @@
 			]
 		},
 		{
-			"name": "Suggestion*",
+			"name": "Suggestion†",
 			"source": "JHC-SPELLS-2",
 			"page": 279,
 			"srd": true,
@@ -1036,7 +1036,7 @@
 			]
 		},
 		{
-			"name": "Zone of Agonizing Lies*",
+			"name": "Zone of Agonizing Lies†",
 			"level": 2,
 			"school": "D",
 			"time": [

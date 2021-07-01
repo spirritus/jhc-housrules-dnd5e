@@ -21,7 +21,7 @@
   },
   "class": [
     {
-      "name": "Barbarian*",
+      "name": "Barbarian†",
       "source": "JHC-BARBARIAN",
       "page": 71,
       "srd": true,
@@ -313,15 +313,15 @@
         "Unarmored Defense|Barbarian||1",
         "Danger Sense|Barbarian||2",
         "Reckless Attack|Barbarian||2",
-        "Brutality*|Barbarian*|JHC-BARBARIAN|2",
-        "Brutalities*|Barbarian*|JHC-BARBARIAN|2",
+        "Brutality†|Barbarian†|JHC-BARBARIAN|2",
+        "Brutalities†|Barbarian†|JHC-BARBARIAN|2",
         {
           "classFeature": "Primal Path|Barbarian||3",
           "gainSubclassFeature": true
         },
-        "Primal Knowledge*|Barbarian*|JHC-BARBARIAN|3",
-        "Ability Score Improvement and Feat*|Barbarian*|JHC-BARBARIAN|4",
-        "Proficiency Versatility*|Barbarian*|JHC-BARBARIAN|4",
+        "Primal Knowledge†|Barbarian†|JHC-BARBARIAN|3",
+        "Ability Score Improvement and Feat†|Barbarian†|JHC-BARBARIAN|4",
+        "Proficiency Versatility†|Barbarian†|JHC-BARBARIAN|4",
         "Extra Attack|Barbarian||5",
         "Fast Movement|Barbarian||5",
         {
@@ -329,18 +329,18 @@
           "gainSubclassFeature": true
         },
         "Feral Instinct|Barbarian||7",
-        "Instinctive Pounce*|Barbarian*|JHC-BARBARIAN|7",
+        "Instinctive Pounce†|Barbarian†|JHC-BARBARIAN|7",
         "Ability Score Improvement|Barbarian||8",
-        "Proficiency Versatility*|Barbarian*|JHC-BARBARIAN|8",
+        "Proficiency Versatility†|Barbarian†|JHC-BARBARIAN|8",
         "Brutal Critical (1 die)|Barbarian||9",
         {
           "classFeature": "Path feature|Barbarian||10",
           "gainSubclassFeature": true
         },
-        "Primal Knowledge*|Barbarian*|JHC-BARBARIAN|10",
+        "Primal Knowledge†|Barbarian†|JHC-BARBARIAN|10",
         "Relentless Rage|Barbarian||11",
         "Ability Score Improvement|Barbarian||12",
-        "Proficiency Versatility*|Barbarian*|JHC-BARBARIAN|12",
+        "Proficiency Versatility†|Barbarian†|JHC-BARBARIAN|12",
         "Brutal Critical (2 dice)|Barbarian||13",
         {
           "classFeature": "Path feature|Barbarian||14",
@@ -348,11 +348,11 @@
         },
         "Persistent Rage|Barbarian||15",
         "Ability Score Improvement|Barbarian||16",
-        "Proficiency Versatility*|Barbarian*|JHC-BARBARIAN|16",
+        "Proficiency Versatility†|Barbarian†|JHC-BARBARIAN|16",
         "Brutal Critical (3 dice)|Barbarian||17",
         "Indomitable Might|Barbarian||18",
         "Ability Score Improvement|Barbarian||19",
-        "Proficiency Versatility*|Barbarian*|JHC-BARBARIAN|19",
+        "Proficiency Versatility†|Barbarian†|JHC-BARBARIAN|19",
         "Primal Champion|Barbarian||20"
       ],
       "subclassTitle": "Primal Path",
@@ -393,13 +393,13 @@
           ]
         },
         {
-          "name": "Path of the Berserker*",
-          "shortName": "Berserker*",
+          "name": "Path of the Berserker†",
+          "shortName": "Berserker†",
           "source": "JHC-BARBARIAN",
           "page": 49,
           "srd": true,
           "subclassFeatures": [
-            "Path of the Berserker*|Barbarian*|JHC-BARBARIAN|Berserker*|JHC-BARBARIAN|3",
+            "Path of the Berserker†|Barbarian†|JHC-BARBARIAN|Berserker†|JHC-BARBARIAN|3",
             "Mindless Rage|Barbarian||Berserker||6",
             "Intimidating Presence|Barbarian||Berserker||10",
             "Retaliation|Barbarian||Berserker||14"
@@ -418,8 +418,8 @@
           ]
         },
         {
-          "name": "Path of the Totem Warrior*",
-          "shortName": "Totem Warrior*",
+          "name": "Path of the Totem Warrior†",
+          "shortName": "Totem Warrior†",
           "source": "JHC-BARBARIAN",
           "page": 50,
           "additionalSpells": [
@@ -438,7 +438,7 @@
           "subclassFeatures": [
             "Path of the Totem Warrior|Barbarian||Totem Warrior||3",
             "Aspect of the Beast|Barbarian||Totem Warrior||6",
-            "One with the Spirits*|Barbarian*|JHC-BARBARIAN|Totem Warrior*|JHC-BARBARIAN|6",
+            "One with the Spirits†|Barbarian†|JHC-BARBARIAN|Totem Warrior†|JHC-BARBARIAN|6",
             "Spirit Walker|Barbarian||Totem Warrior||10",
             "Totemic Attunement|Barbarian||Totem Warrior||14"
           ]
@@ -765,10 +765,10 @@
   ],
   "classFeature": [
     {
-      "name": "Brutality*",
+      "name": "Brutality†",
       "source": "JHC-BARBARIAN",
       "page": 24,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 2,
       "entries": [
@@ -777,10 +777,10 @@
       ]
     },
     {
-      "name": "Brutalities*",
+      "name": "Brutalities†",
       "source": "JHC-BARBARIAN",
       "page": 24,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 2,
       "entries": [
@@ -946,10 +946,10 @@
       ]
     },
     {
-      "name": "Primal Knowledge*",
+      "name": "Primal Knowledge†",
       "source": "JHC-BARBARIAN",
       "page": 24,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 3,
       "entries": [
@@ -958,11 +958,11 @@
       ]
     },
     {
-      "name": "Ability Score Improvement and Feat*",
+      "name": "Ability Score Improvement and Feat†",
       "source": "JHC-BARBARIAN",
       "page": 94,
       "srd": true,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 4,
       "entries": [
@@ -971,10 +971,10 @@
       ]
     },
     {
-      "name": "Proficiency Versatility*",
+      "name": "Proficiency Versatility†",
       "source": "JHC-BARBARIAN",
       "page": 3,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 4,
       "entries": [
@@ -984,10 +984,10 @@
       ]
     },
     {
-      "name": "Instinctive Pounce*",
+      "name": "Instinctive Pounce†",
       "source": "JHC-BARBARIAN",
       "page": 1,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 7,
       "entries": [
@@ -995,10 +995,10 @@
       ]
     },
     {
-      "name": "Proficiency Versatility*",
+      "name": "Proficiency Versatility†",
       "source": "JHC-BARBARIAN",
       "page": 3,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 8,
       "entries": [
@@ -1008,10 +1008,10 @@
       ]
     },
     {
-      "name": "Primal Knowledge*",
+      "name": "Primal Knowledge†",
       "source": "JHC-BARBARIAN",
       "page": 24,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 10,
       "entries": [
@@ -1020,10 +1020,10 @@
       ]
     },
     {
-      "name": "Proficiency Versatility*",
+      "name": "Proficiency Versatility†",
       "source": "JHC-BARBARIAN",
       "page": 3,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 12,
       "entries": [
@@ -1033,10 +1033,10 @@
       ]
     },
     {
-      "name": "Proficiency Versatility*",
+      "name": "Proficiency Versatility†",
       "source": "JHC-BARBARIAN",
       "page": 3,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 16,
       "entries": [
@@ -1046,10 +1046,10 @@
       ]
     },
     {
-      "name": "Proficiency Versatility*",
+      "name": "Proficiency Versatility†",
       "source": "JHC-BARBARIAN",
       "page": 3,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
       "level": 19,
       "entries": [
@@ -1061,31 +1061,31 @@
   ],
   "subclassFeature": [
     {
-      "name": "Path of the Berserker*",
+      "name": "Path of the Berserker†",
       "source": "JHC-BARBARIAN",
       "page": 49,
       "srd": true,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
-      "subclassShortName": "Berserker*",
+      "subclassShortName": "Berserker†",
       "subclassSource": "JHC-BARBARIAN",
       "level": 3,
       "entries": [
         "For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Frenzy*|Barbarian*|JHC-BARBARIAN|Berserker*|JHC-BARBARIAN|3"
+          "subclassFeature": "Frenzy†|Barbarian†|JHC-BARBARIAN|Berserker†|JHC-BARBARIAN|3"
         }
       ]
     },
     {
-      "name": "Frenzy*",
+      "name": "Frenzy†",
       "source": "JHC-BARBARIAN",
       "page": 49,
       "srd": true,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
-      "subclassShortName": "Berserker*",
+      "subclassShortName": "Berserker†",
       "subclassSource": "JHC-BARBARIAN",
       "level": 3,
       "header": 1,
@@ -1094,13 +1094,13 @@
       ]
     },
     {
-      "name": "One with the Spirits*",
+      "name": "One with the Spirits†",
       "source": "JHC-BARBARIAN",
       "page": 49,
       "srd": true,
-      "className": "Barbarian*",
+      "className": "Barbarian†",
       "classSource": "JHC-BARBARIAN",
-      "subclassShortName": "Totem Warrior*",
+      "subclassShortName": "Totem Warrior†",
       "subclassSource": "JHC-BARBARIAN",
       "level": 6,
       "header": 1,

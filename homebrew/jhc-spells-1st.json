@@ -21,7 +21,7 @@
 	},
 	"spell": [
 		{
-			"name": "Command*",
+			"name": "Command†",
 			"source": "JHC-SPELLS-1",
 			"page": 223,
 			"srd": true,
@@ -202,7 +202,7 @@
 			}		
 		},
 		{
-			"name": "Earth Tremor*",
+			"name": "Earth Tremor†",
 			"source": "JHC-SPELLS-1",
 			"page": 155,
 			"otherSources": [
@@ -281,7 +281,7 @@
 			}
 		},
 		{
-			"name": "Find Familiar*",
+			"name": "Find Familiar†",
 			"source": "JHC-SPELLS-1",
 			"page": 240,
 			"srd": true,
@@ -346,7 +346,7 @@
 			}
 		},
 		{
-			"name": "Flaming Spear*",
+			"name": "Flaming Spear†",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -412,7 +412,7 @@
 			]
 		},
 		{
-			"name": "Grease*",
+			"name": "Grease†",
 			"source": "JHC-SPELLS-1",
 			"page": 246,
 			"srd": true,
@@ -480,7 +480,7 @@
 			}
 		},
 		{
-			"name": "Goodberry*",
+			"name": "Goodberry†",
 			"source": "JHC-SPELLS-1",
 			"page": 246,
 			"srd": true,
@@ -531,7 +531,7 @@
 			}
 		},
 		{
-			"name": "Hellfire Lash*",
+			"name": "Hellfire Lash†",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -592,7 +592,7 @@
 			]
 		},
 		{
-			"name": "Ice Knife*",
+			"name": "Ice Knife†",
 			"source": "JHC-SPELLS-1",
 			"page": 157,
 			"otherSources": [
@@ -668,7 +668,7 @@
 			}
 		},
 		{
-			"name": "Inquisitors's Mark*",
+			"name": "Inquisitors's Mark†",
 			"source": "JHC-SPELLS-1",
 			"otherSources": [
 				{
@@ -742,7 +742,7 @@
 			}
 		},
 		{
-			"name": "Jim's Magic Missile*",
+			"name": "Jim's Magic Missile†",
 			"source": "JHC-SPELLS-1",
 			"page": 76,
 			"level": 1,
@@ -816,7 +816,7 @@
 			}
 		},
 		{
-			"name": "Jump*",
+			"name": "Jump†",
 			"source": "JHC-SPELLS-1",
 			"page": 254,
 			"srd": true,
@@ -901,13 +901,13 @@
 			]
 		},
 		{
-			"name": "Magic Fang*",
+			"name": "Magic Fang†",
 			"level": 1,
 			"school": "T",
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "action"
 				}
 			],
 			"range": {
@@ -964,7 +964,7 @@
 			]
 		},
 		{
-			"name": "Overgrowth*",
+			"name": "Overgrowth†",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -1044,7 +1044,7 @@
 			]
 		},
 		{
-			"name": "Predator Instinct*",
+			"name": "Predator Instinct†",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -1104,7 +1104,7 @@
 			]
 		},
 		{
-			"name": "Resurgence*",
+			"name": "Resurgence†",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -1151,7 +1151,7 @@
 			]
 		},
 		{
-			"name": "Witch Bolt*",
+			"name": "Witch Bolt†",
 			"source": "JHC-SPELLS-1",
 			"page": 289,
 			"level": 1,

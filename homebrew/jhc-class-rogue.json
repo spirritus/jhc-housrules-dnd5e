@@ -21,7 +21,7 @@
 	},
 	"class": [
 		{
-			"name": "Rogue*",
+			"name": "Rogue†",
 			"source": "JHC-ROGUE",
 			"page": 217,
 			"srd": true,
@@ -388,29 +388,29 @@
 			"classFeatures": [
 				"Expertise|Rogue||1",
 				"Sneak Attack|Rogue||1",
-				"Thieves' Cant*|Rogue*|JHC-ROGUE|1",
+				"Thieves' Cant†|Rogue†|JHC-ROGUE|1",
 				"Cunning Action|Rogue||2",
 				{
 					"classFeature": "Roguish Archetype|Rogue||3",
 					"gainSubclassFeature": true
 				},
-				"Steady Aim*|Rogue*|JHC-ROGUE|3",
-				"Ability Score Improvement and Feat*|Rogue*|JHC-ROGUE|4",
-				"Proficiency Versatility*|Rogue*|JHC-ROGUE|4",
+				"Steady Aim†|Rogue†|JHC-ROGUE|3",
+				"Ability Score Improvement and Feat†|Rogue†|JHC-ROGUE|4",
+				"Proficiency Versatility†|Rogue†|JHC-ROGUE|4",
 				"Uncanny Dodge|Rogue||5",
 				"Expertise|Rogue||6",
 				"Evasion|Rogue||7",
 				"Ability Score Improvement|Rogue||8",
-				"Proficiency Versatility*|Rogue*|JHC-ROGUE|8",
+				"Proficiency Versatility†|Rogue†|JHC-ROGUE|8",
 				{
 					"classFeature": "Roguish Archetype feature|Rogue||9",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Rogue||10",
-				"Proficiency Versatility*|Rogue*|JHC-ROGUE|10",
-				"Reliable Talent*|Rogue*|JHC-ROGUE|11",
+				"Proficiency Versatility†|Rogue†|JHC-ROGUE|10",
+				"Reliable Talent†|Rogue†|JHC-ROGUE|11",
 				"Ability Score Improvement|Rogue||12",
-				"Proficiency Versatility*|Rogue*|JHC-ROGUE|12",
+				"Proficiency Versatility†|Rogue†|JHC-ROGUE|12",
 				{
 					"classFeature": "Roguish Archetype feature|Rogue||13",
 					"gainSubclassFeature": true
@@ -418,21 +418,21 @@
 				"Blindsense|Rogue||14",
 				"Slippery Mind|Rogue||15",
 				"Ability Score Improvement|Rogue||16",
-				"Proficiency Versatility*|Rogue*|JHC-ROGUE|16",
+				"Proficiency Versatility†|Rogue†|JHC-ROGUE|16",
 				{
 					"classFeature": "Roguish Archetype feature|Rogue||17",
 					"gainSubclassFeature": true
 				},
 				"Elusive|Rogue||18",
 				"Ability Score Improvement|Rogue||19",
-				"Proficiency Versatility*|Rogue*|JHC-ROGUE|19",
+				"Proficiency Versatility†|Rogue†|JHC-ROGUE|19",
 				"Stroke of Luck|Rogue||20"
 			],
 			"subclassTitle": "Roguish Archetype",
 			"subclasses": [
 				{
-					"name": "Arcane Trickster*",
-					"shortName": "Arcane Trickster*",
+					"name": "Arcane Trickster†",
+					"shortName": "Arcane Trickster†",
 					"source": "JHC-ROGUE",
 					"page": 222,
 					"spellcastingAbility": "int",
@@ -494,13 +494,13 @@
 						{
 							"subclasses": [
 								{
-									"name": "Arcane Trickster*",
+									"name": "Arcane Trickster†",
 									"source": "JHC-ROGUE"
 								}
 							],
 							"colLabels": [
-								"{@filter Cantrips Known|spells|level=0|subclass=rogue*: arcane trickster* (jhc-rogue)}",
-								"{@filter Spells Known|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)}"
+								"{@filter Cantrips Known|spells|level=0|subclass=rogue†: arcane trickster† (jhc-rogue)}",
+								"{@filter Spells Known|spells|subclass=Rogue†: Arcane Trickster† (jhc-rogue)}"
 							],
 							"rows": [
 								[
@@ -589,15 +589,15 @@
 							"title": "Spell Slots per Spell Level",
 							"subclasses": [
 								{
-									"name": "Arcane Trickster*",
+									"name": "Arcane Trickster†",
 									"source": "JHC-ROGUE"
 								}
 							],
 							"colLabels": [
-								"{@filter 1st|spells|level=1|subclass=rogue*: arcane trickster* (jhc-rogue)}",
-								"{@filter 2nd|spells|level=2|subclass=rogue*: arcane trickster* (jhc-rogue)}",
-								"{@filter 3rd|spells|level=3|subclass=rogue*: arcane trickster* (jhc-rogue)}",
-								"{@filter 4th|spells|level=4|subclass=rogue*: arcane trickster* (jhc-rogue)}"
+								"{@filter 1st|spells|level=1|subclass=rogue†: arcane trickster† (jhc-rogue)}",
+								"{@filter 2nd|spells|level=2|subclass=rogue†: arcane trickster† (jhc-rogue)}",
+								"{@filter 3rd|spells|level=3|subclass=rogue†: arcane trickster† (jhc-rogue)}",
+								"{@filter 4th|spells|level=4|subclass=rogue†: arcane trickster† (jhc-rogue)}"
 							],
 							"rows": [
 								[
@@ -724,31 +724,31 @@
 						}
 					],
 					"subclassFeatures": [
-						"Arcane Trickster*|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|3",
-						"Magical Ambush|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|9",
-						"Versatile Trickster|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|13",
-						"Spell Thief|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|17"
+						"Arcane Trickster†|Rogue†|JHC-ROGUE|Arcane Trickster†|JHC-ROGUE|3",
+						"Magical Ambush|Rogue†|JHC-ROGUE|Arcane Trickster†|JHC-ROGUE|9",
+						"Versatile Trickster|Rogue†|JHC-ROGUE|Arcane Trickster†|JHC-ROGUE|13",
+						"Spell Thief|Rogue†|JHC-ROGUE|Arcane Trickster†|JHC-ROGUE|17"
 					],
 					"subclassSpells": [
 						{ "name": "Acid Splash ", "source": "PHB" },
 						{ "name": "Blade Ward  ", "source": "PHB" },
-						{ "name": "Booming Blade*", "source": "JHC" },
+						{ "name": "Booming Blade†", "source": "JHC" },
 						{ "name": "Chill Touch", "source": "", "source": "PHB" },
 						{ "name": "Control Flames", "source": "XGE" },
 						{ "name": "Create Bonfire", "source": "XGE" },
 						{ "name": "Dancing Lights", "source": "PHB" },
-						{ "name": "Decay*", "source": "JHC" },
+						{ "name": "Decay†", "source": "JHC" },
 						{ "name": "Fire Bolt", "source": "", "source": "PHB" },
 						{ "name": "Friends", "source": "", "source": "PHB" },
 						{ "name": "Frostbite", "source": "", "source": "XGE" },
-						{ "name": "Grasping Sprout*", "source": "JHC" },
-						{ "name": "Green-Flame Blade*", "source": "JHC" },
+						{ "name": "Grasping Sprout†", "source": "JHC" },
+						{ "name": "Green-Flame Blade†", "source": "JHC" },
 						{ "name": "Gust", "source": "", "source": "XGE" },
-						{ "name": "Hamstring*", "source": "JHC" },
+						{ "name": "Hamstring†", "source": "JHC" },
 						{ "name": "Infestation", "source": "", "source": "XGE" },
-						{ "name": "Jolt*", "source": "JHC" },
+						{ "name": "Jolt†", "source": "JHC" },
 						{ "name": "Light", "source": "", "source": "PHB" },
-						{ "name": "Lightning Lure*", "source": "JHC" },
+						{ "name": "Lightning Lure†", "source": "JHC" },
 						{ "name": "Mage Hand", "source": "", "source": "PHB" },
 						{ "name": "Mending", "source": "", "source": "PHB" },
 						{ "name": "Message", "source": "", "source": "PHB" },
@@ -774,9 +774,9 @@
 						{ "name": "Distort Value", "source": "AI"},
 						{ "name": "Faerie Fire", "source": "PHB"},
 						{ "name": "Feather Fall", "source": "PHB"},
-						{ "name": "Grease*", "source": "JHC"},
+						{ "name": "Grease†", "source": "JHC"},
 						{ "name": "Illusory Script", "source": "PHB"},
-						{ "name": "Jump*", "source": "JHC"},
+						{ "name": "Jump†", "source": "JHC"},
 						{ "name": "Silent Image", "source": "PHB"},
 						{ "name": "Sleep", "source": "PHB"},
 						{ "name": "Tasha's Hideous Laughter", "source": "PHB"},
@@ -789,7 +789,7 @@
 						{ "name": "Enhance Ability", "source": "PHB"},
 						{ "name": "Enlarge/Reduce", "source": "PHB"},
 						{ "name": "Enthrall", "source": "PHB"},
-						{ "name": "Find Traps*", "source": "JHC"},
+						{ "name": "Find Traps†", "source": "JHC"},
 						{ "name": "Gift of Gab", "source": "AI"},
 						{ "name": "Hold Person", "source": "PHB"},
 						{ "name": "Invisibility", "source": "PHB"},
@@ -801,14 +801,14 @@
 						{ "name": "Nystul's Magic Aura", "source": "PHB"},
 						{ "name": "Phantasmal Force", "source": "PHB"},
 						{ "name": "See invisibility", "source": "PHB"},
-						{ "name": "Shadow Blade*", "source": "JHC"},
-						{ "name": "Snilloc's Snowball Swarm*", "source": "JHC"},
+						{ "name": "Shadow Blade†", "source": "JHC"},
+						{ "name": "Snilloc's Snowball Swarm†", "source": "JHC"},
 						{ "name": "Spider Climb", "source": "PHB"},
-						{ "name": "Suggestion*", "source": "JHC"},
+						{ "name": "Suggestion†", "source": "JHC"},
 						{ "name": "Web", "source": "PHB"},
 						{ "name": "Blink", "source": "PHB"},
 						{ "name": "Clairvoyance", "source": "PHB"},
-						{ "name": "Counterspell*", "source": "JHC"},
+						{ "name": "Counterspell†", "source": "JHC"},
 						{ "name": "Dispell Magic", "source": "PHB"},
 						{ "name": "Enemies abound", "source": "XGE"},
 						{ "name": "Fast Friends", "source": "AI"},
@@ -833,32 +833,32 @@
 						{ "name": "Locate Creature", "source": "PHB"},
 						{ "name": "Otiluke's Resilient Sphere", "source": "PHB"},
 						{ "name": "Phantasmal Killer", "source": "PHB"},
-						{ "name": "Reposition*", "source": "JHC"},
-						{ "name": "Wayward Strike*", "source": "JHC"}
+						{ "name": "Reposition†", "source": "JHC"},
+						{ "name": "Wayward Strike†", "source": "JHC"}
 					]
 				},
 				{
-					"name": "Assassin*",
-					"shortName": "Assassin*",
+					"name": "Assassin†",
+					"shortName": "Assassin†",
 					"source": "JHC-ROGUE",
 					"page": 225,
 					"subclassFeatures": [
-						"Assassin*|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|3",
-						"Impostor|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|9",
-						"Master of Poisons|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|13",
-						"Death Strike|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|17"
+						"Assassin†|Rogue†|JHC-ROGUE|Assassin†|JHC-ROGUE|3",
+						"Impostor|Rogue†|JHC-ROGUE|Assassin†|JHC-ROGUE|9",
+						"Master of Poisons|Rogue†|JHC-ROGUE|Assassin†|JHC-ROGUE|13",
+						"Death Strike|Rogue†|JHC-ROGUE|Assassin†|JHC-ROGUE|17"
 					]
 				},
 				{
-					"name": "Divine Agent*",
-					"shortName": "Divine Agent*",
+					"name": "Divine Agent†",
+					"shortName": "Divine Agent†",
 					"source": "JHC-ROGUE",
 					"page": 226,
 					"subclassFeatures": [
-						"Divine Agent*|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3",
-						"Sanctification|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|9",
-						"Gnosis|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|13",
-						"Cleansing Fire|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|17"
+						"Divine Agent†|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|3",
+						"Sanctification|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|9",
+						"Gnosis|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|13",
+						"Cleansing Fire|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|17"
 					]
 				},
 				{
@@ -961,7 +961,7 @@
 			],
 			"fluff": [
 				{
-					"name": "Rogue*",
+					"name": "Rogue†",
 					"type": "section",
 					"entries": [
 						"Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.",
@@ -1256,11 +1256,11 @@
 	],
 	"classFeature": [
 		{
-			"name": "Thieves' Cant*",
+			"name": "Thieves' Cant†",
 			"source": "JHC-ROGUE",
 			"page": 94,
 			"srd": true,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 1,
 			"entries": [
@@ -1268,7 +1268,7 @@
 				"In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.",
 				{
 					"type": "entries",
-					"name": "Trusted Crew*",
+					"name": "Trusted Crew†",
 					"entries": [
 						"You can teach your allies a few basic phrases and symbols of thieves' cant to enable them to understand your own coded dialect and secret messages.",
 						"Whenever you finish a long rest, you may choose a number of creatures equal to your Intelligence modifier (minimum of 1). If you were able to teach these creatures some basic phrases during your rest, they gain the Trusted Crew status and can understand you whenever you speak, write, or sign in thieves' cant.",
@@ -1291,7 +1291,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Secret Message*",
+					"name": "Secret Message†",
 					"entries": [
 						"You can spend a bonus action to pass a secret message in thieves' cant to a creature that can see or hear you clearly. Your message can be conveyed vocally or with sign language, and can be up to two words long."
 					]
@@ -1299,10 +1299,10 @@
 			]
 		},
 		{
-			"name": "Steady Aim*",
+			"name": "Steady Aim†",
 			"source": "JHC-ROGUE",
 			"page": 62,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 3,
 			"entries": [
@@ -1311,11 +1311,11 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement and Feat*",
+			"name": "Ability Score Improvement and Feat†",
 			"source": "JHC-ROGUE",
 			"page": 94,
 			"srd": true,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 4,
 			"entries": [
@@ -1324,10 +1324,10 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility*",
+			"name": "Proficiency Versatility†",
 			"source": "JHC-ROGUE",
 			"page": 3,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 4,
 			"entries": [
@@ -1337,10 +1337,10 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility*",
+			"name": "Proficiency Versatility†",
 			"source": "JHC-ROGUE",
 			"page": 3,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 8,
 			"entries": [
@@ -1350,10 +1350,10 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility*",
+			"name": "Proficiency Versatility†",
 			"source": "JHC-ROGUE",
 			"page": 3,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 10,
 			"entries": [
@@ -1363,11 +1363,11 @@
 			]
 		},
 		{
-			"name": "Reliable Talent*",
+			"name": "Reliable Talent†",
 			"source": "JHC-ROGUE",
 			"page": 94,
 			"srd": true,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 11,
 			"entries": [
@@ -1375,10 +1375,10 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility*",
+			"name": "Proficiency Versatility†",
 			"source": "JHC-ROGUE",
 			"page": 3,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 12,
 			"entries": [
@@ -1388,10 +1388,10 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility*",
+			"name": "Proficiency Versatility†",
 			"source": "JHC-ROGUE",
 			"page": 3,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 16,
 			"entries": [
@@ -1401,10 +1401,10 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility*",
+			"name": "Proficiency Versatility†",
 			"source": "JHC-ROGUE",
 			"page": 3,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
 			"level": 19,
 			"entries": [
@@ -1416,23 +1416,23 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Arcane Trickster*",
+			"name": "Arcane Trickster†",
 			"source": "JHC-ROGUE",
 			"page": 97,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Arcane Trickster*",
+			"subclassShortName": "Arcane Trickster†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"entries": [
 				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|3"
+					"subclassFeature": "Spellcasting|Rogue†|JHC-ROGUE|Arcane Trickster†|JHC-ROGUE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mage Hand Legerdemain|Rogue*|JHC-ROGUE|Arcane Trickster*|JHC-ROGUE|3"
+					"subclassFeature": "Mage Hand Legerdemain|Rogue†|JHC-ROGUE|Arcane Trickster†|JHC-ROGUE|3"
 				}
 			]
 		},
@@ -1440,9 +1440,9 @@
 			"name": "Mage Hand Legerdemain",
 			"source": "JHC-ROGUE",
 			"page": 97,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Arcane Trickster*",
+			"subclassShortName": "Arcane Trickster†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
@@ -1464,9 +1464,9 @@
 			"name": "Spellcasting",
 			"source": "JHC-ROGUE",
 			"page": 97,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Arcane Trickster*",
+			"subclassShortName": "Arcane Trickster†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
@@ -1491,7 +1491,7 @@
 							"type": "entries",
 							"name": "Spell Slots",
 							"entries": [
-								"The Arcane Trickster* Spellcasting table shows how many spell slots you have to cast your {@filter Arcane Trickster*|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+								"The Arcane Trickster† Spellcasting table shows how many spell slots you have to cast your {@filter Arcane Trickster†|spells|subclass=Rogue†: Arcane Trickster† (jhc-rogue)} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 								"For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
 							]
 						}
@@ -1502,12 +1502,12 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spells Known of 1st-Level and Higher*",
+							"name": "Spells Known of 1st-Level and Higher†",
 							"entries": [
-								"You know three 1st-level spells of your choice. Two of which you must choose from the {@filter Arcane Trickster*|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)} spell list and one from the {@filter wizard*|spells|class=wizard*} spell list.",
-								"The Spells Known column of the Arcane Trickster* spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be on the arcane trickster* spell list, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+								"You know three 1st-level spells of your choice. Two of which you must choose from the {@filter Arcane Trickster†|spells|subclass=Rogue†: Arcane Trickster† (jhc-rogue)} spell list and one from the {@filter wizard†|spells|class=wizard†} spell list.",
+								"The Spells Known column of the Arcane Trickster† spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be on the arcane trickster† spell list, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
 								"The spells you learn at 7th, 13th, and 20th level can come from the wizard spell list.",
-								"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the arcane trickster* spell list. The new spell must be of a level for which you have spell slots. When you're replacing the spell you gained at 3rd, 7th, 13th, or 20th level you can use the wizard spell list instead."
+								"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the arcane trickster† spell list. The new spell must be of a level for which you have spell slots. When you're replacing the spell you gained at 3rd, 7th, 13th, or 20th level you can use the wizard spell list instead."
 							]
 						}
 					]
@@ -1519,7 +1519,7 @@
 							"type": "entries",
 							"name": "Spellcasting Ability",
 							"entries": [
-								"Intelligence is your spellcasting ability for your arcane trickster* spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a arcane trickster* spell you cast and when making an attack roll with one.",
+								"Intelligence is your spellcasting ability for your arcane trickster† spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a arcane trickster† spell you cast and when making an attack roll with one.",
 								{
 									"type": "abilityDc",
 									"name": "Spell",
@@ -1543,9 +1543,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spell Versatility*",
+							"name": "Spell Versatility†",
 							"entries": [
-								"Whenever you finish a long rest, you can replace one spell of 1st level or higher you learned from this Spellcasting feature with another spell from the {@filter Arcane Trickster*|spells|subclass=Rogue*: Arcane Trickster* (jhc-rogue)} spell list. The new spell must be the same level as the spell you replace.",
+								"Whenever you finish a long rest, you can replace one spell of 1st level or higher you learned from this Spellcasting feature with another spell from the {@filter Arcane Trickster†|spells|subclass=Rogue†: Arcane Trickster† (jhc-rogue)} spell list. The new spell must be the same level as the spell you replace.",
 								"When you replace a spell learned from the wizard list (3rd-, 7th-, 13th- and 20th-level) you can pick from the wizard spell list instead for that spell.",
 								"You can use this ability a number of times equal to your spellcasting ability modifier at character creation. At 20th level you regain uses of this ability equal to your current spellcasting ability modifier."
 							]
@@ -1558,9 +1558,9 @@
 			"name": "Magical Ambush",
 			"source": "JHC-ROGUE",
 			"page": 97,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Arcane Trickster*",
+			"subclassShortName": "Arcane Trickster†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 9,
 			"header": 2,
@@ -1572,9 +1572,9 @@
 			"name": "Versatile Trickster",
 			"source": "JHC-ROGUE",
 			"page": 97,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Arcane Trickster*",
+			"subclassShortName": "Arcane Trickster†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 13,
 			"header": 2,
@@ -1586,9 +1586,9 @@
 			"name": "Spell Thief",
 			"source": "JHC-ROGUE",
 			"page": 97,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Arcane Trickster*",
+			"subclassShortName": "Arcane Trickster†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 17,
 			"header": 2,
@@ -1599,23 +1599,23 @@
 			]
 		},
 		{
-			"name": "Assassin*",
+			"name": "Assassin†",
 			"source": "JHC-ROGUE",
 			"page": 225,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Assassin*",
+			"subclassShortName": "Assassin†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"entries": [
 				"You focus your training on the grim art of death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|3"
+					"subclassFeature": "Tools of the Trade|Rogue†|JHC-ROGUE|Assassin†|JHC-ROGUE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Assassinate|Rogue*|JHC-ROGUE|Assassin*|JHC-ROGUE|3"
+					"subclassFeature": "Assassinate|Rogue†|JHC-ROGUE|Assassin†|JHC-ROGUE|3"
 				}
 			]
 		},
@@ -1623,9 +1623,9 @@
 			"name": "Tools of the Trade",
 			"source": "JHC-ROGUE",
 			"page": 225,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Assassin*",
+			"subclassShortName": "Assassin†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
@@ -1637,9 +1637,9 @@
 			"name": "Assassinate",
 			"source": "JHC-ROGUE",
 			"page": 225,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Assassin*",
+			"subclassShortName": "Assassin†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
@@ -1651,9 +1651,9 @@
 			"name": "Impostor",
 			"source": "JHC-ROGUE",
 			"page": 225,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Assassin*",
+			"subclassShortName": "Assassin†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 9,
 			"header": 2,
@@ -1666,9 +1666,9 @@
 			"name": "Master of Poisons",
 			"source": "JHC-ROGUE",
 			"page": 225,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Assassin*",
+			"subclassShortName": "Assassin†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 13,
 			"header": 2,
@@ -1714,9 +1714,9 @@
 			"name": "Death Strike",
 			"source": "JHC-ROGUE",
 			"page": 225,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Assassin*",
+			"subclassShortName": "Assassin†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 17,
 			"header": 2,
@@ -1726,12 +1726,12 @@
 			]
 		},
 		{
-			"name": "Divine Agent*",
+			"name": "Divine Agent†",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"entries": [
@@ -1820,15 +1820,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Church Militant|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3"
+					"subclassFeature": "Church Militant|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|3"
 				},
 								{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Purification|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3"
+					"subclassFeature": "Purification|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Revelation|Rogue*|JHC-ROGUE|Divine Agent*|JHC-ROGUE|3"
+					"subclassFeature": "Revelation|Rogue†|JHC-ROGUE|Divine Agent†|JHC-ROGUE|3"
 				}
 			]
 		},
@@ -1836,9 +1836,9 @@
 			"name": "Church Militant",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
@@ -1851,9 +1851,9 @@
 			"name": "Purification",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
@@ -1865,14 +1865,14 @@
 			"name": "Revelation",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn two of the following cantrips: {@spell bless the dead*}, {@spell light}, {@spell mending}, {@spell message} and {@spell thaumaturgy}.",
+				"At 3rd level, you learn two of the following cantrips: {@spell bless the dead†}, {@spell light}, {@spell mending}, {@spell message} and {@spell thaumaturgy}.",
 				"Additionally, you can cast {@spell detect evil and good}, {@spell prayer of healing} and {@spell zone of truth} once without expending a spell slot. You regain the ability to do so when you finish a long rest.",
 				"Wisdom is your spellcasting ability for all your Divine Agent spells (Spell save DC = 8 + your proficiency bonus + your Wisdom modifier) and you can use a {@item holy symbol|phb} as a focus for these spells. See chapter 10 PHB for the general rules of spellcasting."
 			]
@@ -1881,9 +1881,9 @@
 			"name": "Sanctification",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 9,
 			"header": 2,
@@ -1897,9 +1897,9 @@
 			"name": "Gnosis",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 13,
 			"header": 2,
@@ -1912,9 +1912,9 @@
 			"name": "Cleansing Fire",
 			"source": "JHC-ROGUE",
 			"page": 226,
-			"className": "Rogue*",
+			"className": "Rogue†",
 			"classSource": "JHC-ROGUE",
-			"subclassShortName": "Divine Agent*",
+			"subclassShortName": "Divine Agent†",
 			"subclassSource": "JHC-ROGUE",
 			"level": 17,
 			"header": 2,

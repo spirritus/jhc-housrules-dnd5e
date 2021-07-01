@@ -21,7 +21,7 @@
 	},
 	"spell": [
 		{
-			"name": "Acid Splash*",
+			"name": "Acid Splash†",
 			"source": "JHC-CANTRIPS",
 			"page": 211,
 			"srd": true,
@@ -95,7 +95,7 @@
 			}
 		},
 		{
-			"name": "Blade Ward*",
+			"name": "Blade Ward†",
 			"source": "JHC-CANTRIPS",
 			"page": 218,
 			"level": 0,
@@ -155,7 +155,7 @@
 			}
 		},
 		{
-			"name": "Bless the Dead*",
+			"name": "Bless the Dead†",
 			"source": "JHC-CANTRIPS",
 			"otherSources": [
 				{
@@ -216,7 +216,7 @@
 			]
 		},
 		{
-			"name": "Booming Blade*",
+			"name": "Booming Blade†",
 			"source": "JHC-CANTRIPS",
 			"page": 106,
 			"otherSources": [
@@ -309,7 +309,7 @@
 			}
 		},
 		{
-			"name": "Decay*",
+			"name": "Decay†",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -380,7 +380,7 @@
 			]
 		},
 		{
-			"name": "Eldritch Blast*",
+			"name": "Eldritch Blast†",
 			"source": "JHC-CANTRIPS",
 			"page": 237,
 			"srd": true,
@@ -436,7 +436,7 @@
 			}
 		},
 		{
-			"name": "Friends*",
+			"name": "Friends†",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -502,7 +502,7 @@
 			]
 		},
 		{
-			"name": "Grasping Sprout*",
+			"name": "Grasping Sprout†",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -579,7 +579,7 @@
 			]
 		},
 		{
-			"name": "Green-Flame Blade*",
+			"name": "Green-Flame Blade†",
 			"source": "JHC-CANTRIPS",
 			"page": 107,
 			"otherSources": [
@@ -670,7 +670,7 @@
 			}
 		},
 		{
-			"name": "Hamstring*",
+			"name": "Hamstring†",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -747,7 +747,7 @@
 			]
 		},
 		{
-			"name": "Jolt*",
+			"name": "Jolt†",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -826,7 +826,7 @@
 			]
 		},
 		{
-			"name": "Lightning Lure*",
+			"name": "Lightning Lure†",
 			"source": "JHC-CANTRIPS",
 			"page": 107,
 			"otherSources": [
@@ -910,7 +910,7 @@
 			}
 		},
 		{
-			"name": "Thorn Whip*",
+			"name": "Thorn Whip†",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -973,7 +973,7 @@
 			]
 		},
 		{
-			"name": "True Strike*",
+			"name": "True Strike†",
 			"level": 0,
 			"school": "T",
 			"time": [

@@ -21,7 +21,7 @@
 	},
 	"spell": [
 		{
-			"name": "Bridge of Branches*",
+			"name": "Bridge of Branches†",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"name": "Counterspell*",
+			"name": "Counterspell†",
 			"source": "JHC-SPELLS-3",
 			"page": 228,
 			"srd": true,
@@ -143,7 +143,7 @@
 					"type": "entries",
 					"name": "Upcasting:",
 					"entries": [
-						"If you try to counter an upcasted spell, the recognition DC is still calculated with the base level. However, to counter immediately you have to cast counterspell at a matching spell level or succeed on an spellcasting ability check DC 10 + upcasted spell level, e.g. for an upcasted {@spell Ice Knife*|JHC-SPELLS-1} at level 4 the recognition DC (Arcana) is still 10 + 1 = 11 but you have to cast Counterspell at level 4 or succeed an spellcasting ability check DC 10 + 4 = 14."
+						"If you try to counter an upcasted spell, the recognition DC is still calculated with the base level. However, to counter immediately you have to cast counterspell at a matching spell level or succeed on an spellcasting ability check DC 10 + upcasted spell level, e.g. for an upcasted {@spell Ice Knife†|JHC-SPELLS-1} at level 4 the recognition DC (Arcana) is still 10 + 1 = 11 but you have to cast Counterspell at level 4 or succeed an spellcasting ability check DC 10 + 4 = 14."
 					]
 				},
 				"A flowchart can be found in the Houserules PDF.",
@@ -220,7 +220,7 @@
 			]
 		},
 		{
-			"name": "Curse of Incompetence*",
+			"name": "Curse of Incompetence†",
 			"level": 3,
 			"school": "E",
 			"time": [
@@ -334,7 +334,7 @@
 			]
 		},
 		{
-			"name": "Fell*",
+			"name": "Fell†",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -392,7 +392,7 @@
 			]
 		},
 		{
-			"name": "Grow/Shrink Beast*",
+			"name": "Grow/Shrink Beast†",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -464,7 +464,7 @@
 			]
 		},
 		{
-			"name": "Lightning Arrow*",
+			"name": "Lightning Arrow†",
 			"source": "JHC-SPELLS-3",
 			"page": 255,
 			"level": 3,
@@ -528,7 +528,7 @@
 			}
 		},
 		{
-			"name": "Skewering Branch*",
+			"name": "Skewering Branch†",
 			"level": 3,
 			"school": "C",
 			"time": [

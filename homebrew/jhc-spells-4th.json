@@ -21,7 +21,7 @@
 	},
 	"spell": [
 		{
-			"name": "Dark Empowerment*",
+			"name": "Dark Empowerment†",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -88,7 +88,7 @@
 			]
 		},
 		{
-			"name": "Echoes of Steel*",
+			"name": "Echoes of Steel†",
 			"level": 4,
 			"school": "V",
 			"time": [
@@ -162,7 +162,7 @@
 			]
 		},
 		{
-			"name": "Find Improved Familiar*",
+			"name": "Find Improved Familiar†",
 			"source": "JHC-SPELLS-4",
 			"page": 240,
 			"srd": true,
@@ -205,11 +205,11 @@
 				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
 				"While your familiar is within 1 mile of you, you can communicate with it telepathically (via language). Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses.",
 				"As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
-				"You can't have more than one familiar at a time. If you cast this spell or {@spell Find Familiar*|JHC-SPELLS-1} while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
+				"You can't have more than one familiar at a time. If you cast this spell or {@spell Find Familiar†|JHC-SPELLS-1} while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
 				"Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 1 mile of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.",
 				"Finally, when you cast this spell, you can choose to imbue your familiar with some of your magical force. Pick one cantrip of your own. While your familiar is not dismissed you cannot cast that cantrip but now your familiar can cast a cantrip, choose {@spell Dancing Lights} or {@spell Gust|XGE}. If the cantrip you chose is a non damaging one, you can instead chose that as cantrip for your familiar.",
 				"Additionally, when you cast this spell and trade a cantrip, you can also transfer up to 7 spell points to your familiar (see Houserules PDF about spellpoints). Your spell points are reduced by that amount and your familiar gains them as spell slots of up to 2nd-level.",
-				"Pick two non damaging spells from the wizard spell list. Your familiar can then cast these spells using its gained spell slots. The spells must not have a material that is either consumed or has a cost (GP). Your familiar does not need material components for the spells it gained. The familiars spell save DC is yours -1. The familiar regains the spell slots after a long rest. You can change the spells once per long rest, when you recast {@spell Find Improved Familiar*|JHC-SPELLS-4}.",
+				"Pick two non damaging spells from the wizard spell list. Your familiar can then cast these spells using its gained spell slots. The spells must not have a material that is either consumed or has a cost (GP). Your familiar does not need material components for the spells it gained. The familiars spell save DC is yours -1. The familiar regains the spell slots after a long rest. You can change the spells once per long rest, when you recast {@spell Find Improved Familiar†|JHC-SPELLS-4}.",
 				"The reduction of your spell points lasts as long as your familiar has hit points, when the familiar drops to 0 hit points you regain your traded spell points after a long rest."
 			],
 			"miscTags": [
@@ -227,7 +227,7 @@
 			}
 		},
 		{
-			"name": "Grasping Vine*",
+			"name": "Grasping Vine†",
 			"source": "JHC-SPELLS-4",
 			"page": 246,
 			"level": 4,
@@ -306,7 +306,7 @@
 			]
 		},
 		{
-			"name": "Ice Storm*",
+			"name": "Ice Storm†",
 			"source": "JHC-SPELLS-4",
 			"page": 252,
 			"srd": true,
@@ -435,7 +435,7 @@
 			}
 		},
 		{
-			"name": "Reposition*",
+			"name": "Reposition†",
 			"level": 4,
 			"school": "C",
 			"time": [
@@ -503,7 +503,7 @@
 			]
 		},
 		{
-			"name": "Resest*",
+			"name": "Resest†",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -575,7 +575,7 @@
 			]
 		},
 		{
-			"name": "Sacrificial Healing*",
+			"name": "Sacrificial Healing†",
 			"level": 4,
 			"school": "N",
 			"time": [
@@ -638,7 +638,7 @@
 			}
 		},
 		{
-			"name": "Tree Strike*",
+			"name": "Tree Strike†",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -705,7 +705,7 @@
 			]
 		},
 		{
-			"name": "Wayward Strike*",
+			"name": "Wayward Strike†",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -768,7 +768,7 @@
 			]
 		},
 		{
-			"name": "Windblade*",
+			"name": "Windblade†",
 			"level": 4,
 			"school": "V",
 			"time": [
