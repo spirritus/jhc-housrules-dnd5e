@@ -1,0 +1,258 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JHC-SPELLS-5",
+				"abbreviation": "JHC-SPELLS-5",
+				"full": "House Rules JHC-SPELLS-5",
+				"authors": [
+					"JS"
+				],
+				"convertedBy": [
+					"JS"
+				],
+				"version": "2.3.1",
+				"url": "",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 1616941676,
+		"dateLastModified": 1616941676
+	},
+	"spell": [
+		{
+			"name": "Angelic Rebuke†",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to being damaged by a creature within 60 feet of you that you can see"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"With a word, you invoke the searing radiance of the higher planes to strike down your attacker. The creature must make a Charisma saving throw. On a failed save it takes {@dice 5d10} radiant damage and is {@condition blinded} until the start of your next turn, or half as much damage and it isn't {@condition blinded} on a successful one."
+			],
+			"source": "JHC-SPELLS-5",
+			"components": {
+				"v": true
+			},
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Raging Tempest†",
+			"source": "JHC-SPELLS-5",
+			"page": 166,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A 30-foot-radius, 100-foot-high cylinder of whirling air springs into existence, centered on a point you choose within range. The cylinder remains for the spell's duration. Each creature in the cylinder when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 3d8} bludgeoning damage. The cylinder's space is difficult terrain.",
+				"Until the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the cylinder toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the cylinder. On a hit, the target takes {@damage 5d8} lightning damage.",
+				"Creatures within 30 feet of the cylinder have disadvantage on Wisdom ({@skill Perception}) checks made to listen."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the damage for each of its effects increases by {@scaledamage 3d8;5d8|5-9|1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"areaTags": [
+				"ST",
+				"Y"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Tempest",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Stormsoul",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Teleportation Circle†",
+			"source": "JHC-SPELLS-5",
+			"page": 282,
+			"srd": true,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "rare chalks and inks infused with precious gems worth 50 gp, which the spell consumes",
+					"cost": 5000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.",
+				"Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence\u2014a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.",
+				"You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.",
+				"Some teleportation circles may be protected with keys or passwords."
+			],
+			"miscTags": [
+				"PRM",
+				"TP"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Horizon Walker",
+							"source": "XGE"
+						}
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			}
+		}
+	]
+}
